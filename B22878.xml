@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://www.textcreationpartnership.org/docs/code/pfs.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Miscellanea sacra</title>
+            <author>Farrah, Benjamin.</author>
+         </titleStmt>
+         <extent>Approx. 75KB of XML-encoded text transcribed from 60 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2016-02">2016-02 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B22878</idno><idno type="EEBO-CITATION">19370320</idno>
+  <idno type="VID">205476</idno>
+  <idno type="EEBO-PROQUEST">2240850472</idno>
+  
+            <idno type="STC">Wing F519</idno>
+            <idno type="OCLC">19370320</idno>
+            <availability><p>This keyboarded and encoded edition of the work described above is co-owned by the
+    institutions providing financial support to the Early English Books Online Text Creation
+    Partnership. This text is available for reuse, according to the terms of <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Creative Commons 0 1.0 Universal
+    licence</ref>. The text can be copied, modified, distributed and performed, even for commercial
+    purposes, all without asking permission.</p></availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt><relatedItem type="facs" target="https://data.historicaltexts.jisc.ac.uk/view?pubId=eebo-e"/>
+            <note>(EEBO-TCP ; phase 2, no. B22878)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 205476)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1669:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Miscellanea sacra</title>
+                  <author>Farrah, Benjamin.</author>
+               </titleStmt>
+               <extent>[24], 95 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for John Lawrence ... and Joseph Wats ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Containing Scriptural meditations, Divine breathings, Occasional reflections, and Sacred poems."</note>
+                  <note>Each of four parts has separate t.p.</note>
+                  <note>Attributed to Farrah by Wing.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,363 texts created during Phase 1 of the project have been released into the public domain as of 1 January 2015. Anyone can now take and use these texts for their own purposes, but we respectfully request that due credit and attribution is given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Full documentation of the original data capture process is available from the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.
+   All versions of the texts are now archived and freely available for download. See <ref target="https://textcreationpartnership.org/faq/#faq05">the TCP Download FAQ</ref>
+   for detailed information. The TEI P5 versions are also freely available from the <ref target="https://github.com/textcreationpartnership">TCP Github repository</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp" matchPattern="([0-9\-]+):([0-9IVX]+)" replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char" matchPattern="(.+)" replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term type="topical_term">Devotional literature --  Early works to 1800.</term>
+               <term type="topical_term">Christian life --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-10 </date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images </change>
+         <change>
+            <date>2014-05 </date>
+            <label>John Latta </label>Sampled and proofread </change>
+         <change>
+            <date>2014-05 </date>
+            <label>John Latta</label>Text and markup reviewed and edited </change>
+         <change>
+            <date>2015-03 </date>
+            <label>pfs</label>Batch review (QC) and XML conversion </change>
+      <change><date>2021-05 </date><label>lb</label>TEI P5 conversion </change></revisionDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:205476:1"/>
+                  <p>
+                     <hi>Miscellanea Sacra.</hi>
+                  </p>
+                  <p>CONTAINING
+<list>
+                        <item>Scriptural Meditations,</item>
+                        <item>Divine Breathings,</item>
+                        <item>Occasional Reflections, <hi>and</hi>
+                        </item>
+                        <item>Sacred Poems.</item>
+                     </list>
+                  </p>
+                  <q>
+                     <p>Non paranda solum nobis ea, sed fruenda etiam est sapientia.</p>
+                     <bibl>
+                        <hi>Cic.</hi>
+                     </bibl>
+                  </q>
+                  <p>
+                     <hi>LONDON:</hi> Printed for <hi>John Lawrence,</hi> at the <hi>Angel</hi> in the <hi>Poultrey;</hi> And <hi>Joseph Wats,</hi> at the <hi>Angel</hi> in St. <hi>Paul</hi>'s Church-yard. 1692.</p>
+               </div>
+               <div type="preface">
+                  <pb facs="tcp:205476:2"/>
+                  <pb facs="tcp:205476:2"/>
+                  <head>The PREFACE.</head>
+                  <p>ONE of the Anci<g ref="char:EOLhyphen"/>ents giving an Ac<g ref="char:EOLhyphen"/>count of the Life of Man, said it was (or at least ought to be) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>a MEDITATION of DEATH:</hi> He should ra<g ref="char:EOLhyphen"/>ther have said, <hi>a Me<g ref="char:EOLhyphen"/>ditation of another Life,</hi> tho' I suppose he
+<pb facs="tcp:205476:3"/> meant it not of Death in it <hi>self,</hi> but as it trans<g ref="char:EOLhyphen"/>mits us to a <hi>Better Life</hi> beyond it. But alas! how few are there that exer<g ref="char:EOLhyphen"/>cise their Thoughts upon such a Subject! since the generality of Men do live <hi>tanquam semper vi<g ref="char:EOLhyphen"/>cturi,</hi> as though they were to live here <hi>always,</hi> or rather as if they thought their Souls and Bodies should <hi>perish together</hi>
+                     <pb facs="tcp:205476:3"/> without the hopes of a Re<g ref="char:EOLhyphen"/>surrection. And tho' <hi>Life and Immortality be brought to light by the Gospel,</hi> yet even the Professors of it do too little exercise their minds in such Contemplations. Sometimes perhaps the Crosses and Troubles they meet with here below, may force their thoughts up<g ref="char:EOLhyphen"/>wards, and induce them to think on that uninter<g ref="char:EOLhyphen"/>rupted
+<pb facs="tcp:205476:4"/> Peace and Felicity they expect hereafter; but this is usually but <hi>Mo<g ref="char:EOLhyphen"/>mentanea Philoso<g ref="char:EOLhyphen"/>phia,</hi> Calvin. and they presently return to their former course of minding earthly things. And which is the strangest of all, those that have some good As<g ref="char:EOLhyphen"/>surance of an Interest in a future Life of Blessed<g ref="char:EOLhyphen"/>ness, and have experienced the <hi>Comfortable Be<g ref="char:EOLhyphen"/>ginnings</hi>
+                     <pb facs="tcp:205476:4"/> of it here, yet as they too seldom employ their thoughts about it, so they are too often unwilling to depart hence, that they may enter in and possess it. I know if one should come to any of them, and ask them, <hi>If they be willing to go to Heaven?</hi> they would presently answer, <hi>Yes, with all their hearts!</hi> but if Death look them in
+<pb facs="tcp:205476:5"/> the Face in a fit of Sick<g ref="char:EOLhyphen"/>ness or some other eminent Danger, then they recoil, and entertain the thoughts of it with great reluctancy; then Heaven is besieged with earnest and repeated Prayers for their Deli<g ref="char:EOLhyphen"/>verance, and if their Re<g ref="char:EOLhyphen"/>quests be granted, and their Lives continued, not<g ref="char:EOLhyphen"/>withstanding the proneness of Men to Ingratitude and forgetfulness of God's
+<pb facs="tcp:205476:5"/> Mercies, yet usually up<g ref="char:EOLhyphen"/>on this Occasion they are very free and hearty in their acknowledgments.</p>
+                  <p>This is a thing I have sometimes wondred at in Serious Christians, who have profess<gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d themselves to be <hi>Strangers and Pilgrims here,</hi> and <hi>to seek a better Country,</hi> and yet could look upon the continuance of their <hi>Exile</hi> in a World
+<pb facs="tcp:205476:6"/> full of <hi>Sin</hi> and <hi>Sorrow,</hi> as so great a Mercy. As if they should say, <hi>Lord, we bless and praise thy Name that thou hast not yet made us perfectly happy; we admire thy Good<g ref="char:EOLhyphen"/>ness and Mercy to<g ref="char:EOLhyphen"/>wards us in length<g ref="char:EOLhyphen"/>ning out our Exile and Bondage, and continuing us a lit<g ref="char:EOLhyphen"/>tle longer absent
+<pb facs="tcp:205476:6"/> from thy Self. Thou mightest ere this have brought us to a full enjoyment of thy Self in unspeak<g ref="char:EOLhyphen"/>able Bliss and Glory. Thou mightest ere this have brought us into a state of perfect Purity and Holiness, where we should no more have disobey'd thy Righ<g ref="char:EOLhyphen"/>teous Laws, no more
+<pb facs="tcp:205476:7"/> have grieved thy HOLY SPIRIT, no more have abused thy Grace, but have been equally capa<g ref="char:EOLhyphen"/>ble of Serving and Enjoying Thee to perfection. But thou hast been graciously pleased to continue us a little longer in this Vale of Sin and Misery, where we shall still be expos'd
+<pb facs="tcp:205476:7"/> to the Temptations of Satan, and fre<g ref="char:EOLhyphen"/>quently be over<g ref="char:EOLhyphen"/>come by them; where we shall still be over-born by our own Corruptions, &amp; by our Sins often provoke thee to An<g ref="char:EOLhyphen"/>ger against us; where we shall still feel the effects of our Sins and of thy Displea<g ref="char:EOLhyphen"/>sure for them in
+<pb facs="tcp:205476:8"/> those many troubles and afflictions we shall meet with as long as we continue here, and out of which thou hast gi<g ref="char:EOLhyphen"/>ven us hopes that thou wilt not yet deliver us,</hi> &amp;c. But how <hi>unsuitable</hi> is this to the <hi>Profession</hi> that is generally made of <hi>de<g ref="char:EOLhyphen"/>siring to depart, and to be with Christ,
+<pb facs="tcp:205476:8"/> which is far better!</hi> And tho' some may think this too uncharitable an Interpretation of such Ad<g ref="char:EOLhyphen"/>dresses, which are usually worded in such terms as renders them much more plausible both to themselves and others; yet if Chri<g ref="char:EOLhyphen"/>stians did but seriously con<g ref="char:EOLhyphen"/>sider the deceitfulness of their own Hearts, and how much of the <hi>Love</hi> of <hi>Life</hi> and of <hi>Earthly</hi>
+                     <pb facs="tcp:205476:9"/> things remains unmortifi<g ref="char:EOLhyphen"/>ed in the best of Men, it would make them ready to suspect the most plausible excuses for their desires of Long Life. Among which there is none of more seem<g ref="char:EOLhyphen"/>ing weight than their un<g ref="char:EOLhyphen"/>preparedness for Death: to which I Answer, that the Persons I am speaking to are suppos'd to be already (at least in some good mea<g ref="char:EOLhyphen"/>sure) prepared for it; or else
+<pb facs="tcp:205476:9"/> it would indeed be rashness &amp; presumption to desire to leave this World when they are not qualified for being happy in another. But those that have experienc'd a re<g ref="char:EOLhyphen"/>al work of Grace upon their hearts, that have found in their own Souls those Pri<g ref="char:EOLhyphen"/>mitiae Regni, the Sanctify<g ref="char:EOLhyphen"/>ing Operations of the holy Spirit, 'tis impossible for them to miscarry. Such souls have a natural Tendency
+<pb facs="tcp:205476:10"/> &amp; <hi>Inclination</hi> towards Heaven, both in Life and at Death, and cannot miss of it. But if they say, they desire time to be <hi>further</hi> prepared for so great a Change, I grant that we cannot indeed be too well prepared for that state wherein we are to be for ever; and therefore it does highly concern every one to improve the time of Life allotted to them to
+<pb facs="tcp:205476:10"/> the best advantage, and to make themselves as rea<g ref="char:EOLhyphen"/>dy as they can; yet I would desire them to con<g ref="char:EOLhyphen"/>sider that such is the be<g ref="char:EOLhyphen"/>witching Nature of this World, that the <hi>longer</hi> we live in it, the more <hi>unwilling</hi> we are to leave it; and that length of time will not only in<g ref="char:EOLhyphen"/>crease our <hi>Graces,</hi> but also discover our <hi>Cor<g ref="char:EOLhyphen"/>ruptions,</hi> so that what<g ref="char:EOLhyphen"/>ever
+<pb facs="tcp:205476:11"/> we are in <hi>reality,</hi> we shall always be un<g ref="char:EOLhyphen"/>ready in our <hi>apprehen<g ref="char:EOLhyphen"/>sions,</hi> and perhaps more hereafter than at present.</p>
+                  <p>To perswade therefore my self and others to be content to leave a <hi>sinful</hi> and <hi>miserable</hi> World, and willing to be perfect<g ref="char:EOLhyphen"/>ly <hi>holy</hi> and eternally <hi>happy,</hi> was the design of composing the ensuing <hi>Miscellanies,</hi> which
+<pb facs="tcp:205476:11"/> were written at several times, and are now se<g ref="char:EOLhyphen"/>lected out of many others on different Subjects: and if they may be any ways serviceable to this end, I shall not altogether repent of their Publication.</p>
+               </div>
+               <div type="table_of_contents">
+                  <pb facs="tcp:205476:12"/>
+                  <head>THE CONTENTS.</head>
+                  <list>
+                     <head>Scriptural Meditations.</head>
+                     <item>Matth. 6. 21. <hi>For where your Treasure is, there will your hearts be also.</hi> Pag. 3.</item>
+                     <item>Philip 1. 23. <hi>For I am in a strait be<g ref="char:EOLhyphen"/>tween two, having a desire to depart, and to be with Christ, which is far better.</hi> 7</item>
+                     <item>John 14. 22. <hi>Lord! how is it that thou wilt manifest thy self unto us, and not unto the World?</hi> 11</item>
+                     <item>Micah 2. 10. <hi>Arise ye, and depart, for this is not your Rest.</hi> 17</item>
+                  </list>
+                  <list>
+                     <pb facs="tcp:205476:12"/>
+                     <head>Divine Breathings.</head>
+                     <item>
+                        <hi>Immortality.</hi> 27</item>
+                     <item>
+                        <hi>The Life of Faith.</hi> 29</item>
+                     <item>
+                        <hi>Slothfulness.</hi> 33</item>
+                     <item>
+                        <hi>True Riches.</hi> 34</item>
+                     <item>
+                        <hi>Spiritual Manna.</hi> 36</item>
+                     <item>
+                        <hi>The Best Portion.</hi> 39</item>
+                  </list>
+                  <list>
+                     <head>Occasional Reflections.</head>
+                     <item>
+                        <hi>At my first waking in the Morning.</hi> 49</item>
+                     <item>
+                        <hi>On the Enjoyment of a Friend's Compa<g ref="char:EOLhyphen"/>ny.</hi> 52</item>
+                     <item>
+                        <hi>Upon winding up a Watch.</hi> 56</item>
+                     <item>
+                        <hi>A Continuation.</hi> 59</item>
+                     <item>
+                        <hi>Upon my Indisposedness to write to a Friend.</hi> 62</item>
+                     <item>
+                        <hi>Upon the Singing of Larks.</hi> 65</item>
+                  </list>
+                  <list>
+                     <pb facs="tcp:205476:13"/>
+                     <head>Sacred Poems.</head>
+                     <item>
+                        <hi>The Love-Sick Spouse.</hi> 71</item>
+                     <item>
+                        <hi>The Pilgrimage.</hi> 75</item>
+                     <item>
+                        <hi>Emptiness in the Creature, Fulness in God.</hi> 77</item>
+                     <item>
+                        <hi>The Unprofitable Servant.</hi> 79</item>
+                     <item>
+                        <hi>The Invitation.</hi> 83</item>
+                     <item>
+                        <hi>The Welcome.</hi> 87</item>
+                     <item>
+                        <hi>The Glympse.</hi> 89</item>
+                     <item>
+                        <hi>Praise.</hi> 94</item>
+                  </list>
+               </div>
+            </front>
+            <body>
+               <div type="title_page">
+                  <pb facs="tcp:205476:13"/>
+                  <p>SCRIPTURAL Meditations.</p>
+                  <q>
+                     <p>O quàm contemptares est Homo, nisi supra humana se erexe<g ref="char:EOLhyphen"/>rit! <bibl>
+                           <hi>Sen.</hi>
+                        </bibl>
+                     </p>
+                  </q>
+                  <q>
+                     <l>—Tentanda via est, quâ me quoque possim</l>
+                     <l>Tollere humo.—</l>
+                  </q>
+                  <p>
+                     <hi>LONDON:</hi> Printed for <hi>John Lawrence,</hi> at the <hi>Angel</hi> in the <hi>Poultrey;</hi> And <hi>Joseph Wats,</hi> at the <hi>Angel</hi> in St. <hi>Paul</hi>'s Church-yard. 1691.</p>
+               </div>
+               <div type="meditations">
+                  <pb facs="tcp:205476:14"/>
+                  <pb n="3" facs="tcp:205476:14"/>
+                  <head>SCRIPTURAL MEDITATIONS.</head>
+                  <div type="meditation">
+                     <epigraph>
+                        <bibl>MATTH. VI. 21.</bibl>
+                        <q>For where your Treasure is, there will your Hearts be also.</q>
+                     </epigraph>
+                     <p>BLUSH and be ashamed, O my Soul, that thou art such a Stranger to a Heavenly Life: That thou should'st be so careful and sollicitous about the things of this <hi>World,</hi> and so re<g ref="char:EOLhyphen"/>gardless of the affairs of Heaven, and the concerns of <hi>Eternity.</hi> Dost thou believe thou hast a <hi>Treasure</hi>
+                        <pb n="4" facs="tcp:205476:15"/> in Heaven, why then is not thy <hi>Heart</hi> there also? How is it that thou dost so seldom think on it? but thy mind is continually run<g ref="char:EOLhyphen"/>ning upon Earthly Vanities. Dost thou pretend to be a <hi>Stranger</hi> and a <hi>Pilgrim</hi> on Earth, and yet art thou for building <hi>Tabernacles,</hi> and wilt thou say (or at least think) <hi>It is good to be here?</hi> Dost thou pretend to be <hi>travelling</hi> to a bet<g ref="char:EOLhyphen"/>ter Country, and wilt thou never think <hi>whither</hi> thou art going, nor spend a thought on thy Journey's <hi>end?</hi> Dost thou believe that Christ is gone before to prepare a <hi>Mansion</hi> for thee, and would it not do well by a Holy Contemplation to go and see whether thou shalt like thy Dwelling? Surely it would be worth the while to ascend the Mount and take a view of the
+<pb n="5" facs="tcp:205476:15"/> Heavenly <hi>Canaan.</hi> How would it make thee long to be there, and be willing to do or suffer any thing so thou maist have a part in the Inheritance of those that are san<g ref="char:EOLhyphen"/>ctified? How would it make thee <hi>despise</hi> the <hi>World,</hi> and all the <hi>Ho<g ref="char:EOLhyphen"/>nours, Profits,</hi> and <hi>Pleasures</hi> of it? How <hi>little</hi> would they then ap<g ref="char:EOLhyphen"/>pear in thine eyes! How <hi>light</hi> would all Afflictions seem when thou knowest that they will work out for thee <hi>such</hi> an exceeding weight of Glory? How patiently would'st thou bear them, and be fully satisfied with this, That <hi>Hea<g ref="char:EOLhyphen"/>ven</hi> will make amends for all.</p>
+                     <p>LORD bring me out of this <hi>worse</hi> than <hi>Egyptian</hi> Slavery and Bondage; this bondage to <hi>Sin</hi> and <hi>Satan;</hi> this <hi>Sodom,</hi> out of which I am so loath to depart; and let
+<pb n="6" facs="tcp:205476:16"/> me escape to the <hi>Mountains.</hi> Let me no more long after the <hi>Flesh-pots</hi> of <hi>Egypt,</hi> but let me tast the sweetness of Spiritual <hi>Manna.</hi> Oh that I could sometimes go (with the <hi>Spies</hi>) to search the <hi>Promised Land,</hi> and cut down a Cluster of Grapes at the Brook <hi>Eshcol,</hi> which would make me long for the full Vintage. Lord help me to set my affections on <hi>things above,</hi> and not on things on earth. Alas! what is there here that deserves a heart? And what heart does not owe all its Love to thee? Lord grant that I may say from my very heart, <hi>Whom have I in hea<g ref="char:EOLhyphen"/>ven but thee, and there is none up<g ref="char:EOLhyphen"/>on earth I desire in comparison of thee.</hi> Be thou my Portion, and the Lot of my Inheritance, and I may well say, <hi>The lines are fallen
+<pb n="7" facs="tcp:205476:16"/> to me in pleasant places, and I have a goodly heritage.</hi> And grant that now at length I may lay up for my self a <hi>Treasure</hi> in <hi>Heaven,</hi> and then <hi>my Heart will be there also.</hi>
+                     </p>
+                  </div>
+                  <div type="meditation">
+                     <epigraph>
+                        <bibl>PHILIP. I. 23.</bibl>
+                        <q>For I am in a strait betwixt two, having a desire to depart, and to be with Christ, which is far bet<g ref="char:EOLhyphen"/>ter.</q>
+                     </epigraph>
+                     <p>WHAT is there in this World that should make us so loath to leave it? Is <hi>Vanity</hi> and <hi>Vexation</hi> of Spirit so <hi>Desirable?</hi> And there is nothing else to be found here. Nothing but <hi>cares</hi> and <hi>troubles, wants</hi> and <hi>losses, crosses</hi> and <hi>disappointments</hi> to be met with
+<pb n="8" facs="tcp:205476:17"/> in this Life. That which we call <hi>Contentment,</hi> how often do we seek and hunt after it in vain? And no wonder, since we seek for it where it is not to be found. We are apt to think 'tis in <hi>such</hi> or <hi>such</hi> an En<g ref="char:EOLhyphen"/>joyment, and all our endeavours are bent to gain that, and we fondly think, Oh if we had but <hi>such</hi> a thing, then we should be <hi>happy!</hi> Whereas if God be pleased to grant our desires, we often find those very Enjoyments which ap<g ref="char:EOLhyphen"/>peared so <hi>Charming,</hi> to be <hi>empty</hi> of that Comfort we expected in them, or else so many Crosses do attend them, as <hi>imbitters</hi> all the sweetness that is in them. And after all this, we must <hi>part</hi> with them, and the <hi>Grief</hi> and <hi>Sorrow</hi> which attends the <hi>Loss</hi> of them is usually <hi>greater</hi> and <hi>longer</hi> than
+<pb n="9" facs="tcp:205476:17"/> the <hi>pleasure</hi> we enjoyed in them.</p>
+                     <p>WHO then would set their hearts upon the Comforts, the <hi>empty, fading, perishing</hi> Comforts and Enjoyments of this Life, and not rather desire to <hi>depart,</hi> and to <hi>be with Christ,</hi> which is <hi>far better?</hi> The Joys of Heaven are <hi>real</hi> and <hi>substantial, full</hi> and <hi>satisfactory, pure</hi> and <hi>unmixed, constant</hi> and <hi>immor<g ref="char:EOLhyphen"/>tal. There</hi> all <hi>tears</hi> shall be wip'd away from our eyes, and <hi>sorrow</hi> and <hi>sighing</hi> shall flee away and be heard of no more for ever. <hi>There</hi> we shall be free from all <hi>pains</hi> and <hi>sicknesses</hi> of <hi>body,</hi> and all <hi>trouble</hi> and <hi>perplexity</hi> of <hi>mind. There</hi> we shall be free from all the <hi>tempta<g ref="char:EOLhyphen"/>tions</hi> of the World, the Flesh, and the Devil. <hi>There</hi> we shall be free from all <hi>Sin,</hi> and the fears of God's <hi>displeasure</hi> for it. <hi>There</hi> we shall
+<pb n="10" facs="tcp:205476:18"/> meet with all our <hi>Friends</hi> and <hi>Re<g ref="char:EOLhyphen"/>lations</hi> that are gone before us; <hi>there</hi> we shall <hi>meet</hi> and never <hi>part</hi> again. But above all, <hi>there</hi> we shall <hi>be with Christ,</hi> which is far better than all, and in him enjoy unspeakable, unconceivable Bliss and Happiness to all Eternity.</p>
+                     <p>LORD grant that as I do, or at least ought to <hi>desire</hi> to depart, so I may be also <hi>ready,</hi> that when<g ref="char:EOLhyphen"/>soever thou comest, thou maist find me watching, and say unto me, Well done! Enter into thy Master's Joy.</p>
+                  </div>
+                  <div type="meditation">
+                     <pb n="11" facs="tcp:205476:18"/>
+                     <epigraph>
+                        <bibl>JOHN XIV. 22.</bibl>
+                        <q>Lord! how is it that thou wilt ma<g ref="char:EOLhyphen"/>nifest thy self unto us, and not unto the World?</q>
+                     </epigraph>
+                     <p>WELL might the Disciples wonder at this condescen<g ref="char:EOLhyphen"/>ding and distinguishing Love of their Lord and Master. And yet his <hi>Promise</hi> immediately before (as also his <hi>Prayer</hi> afterwards) was not design'd to respect <hi>them</hi> only, but <hi>all that shall believe in him through their word. He that hath my Commandments,</hi> (saith he) <hi>and keepeth them,</hi> (whosoever he be to the World's end) <hi>he it is that lo<g ref="char:EOLhyphen"/>veth me; and he that loveth me, shall be loved of my Father, and I
+<pb n="12" facs="tcp:205476:19"/> will love him, and will manifest my self unto him.</hi> I will shew him my Glory <hi>now</hi> in some measure, and I will pray the Father that he may be with me and see my Glory <hi>hereafter.</hi> I will not only <hi>Love</hi> him, but I will <hi>manifest</hi> that Love to him, and let him see and feel it, and the happy effects of it. And is this the manner of Men to deal so familiarly with their Ser<g ref="char:EOLhyphen"/>vants? And is it not much more wonderful that the Lord of Life and Glory should so far condescend as to reveal himself to poor despi<g ref="char:EOLhyphen"/>cable Worms! Have we not reason to cry out with the <hi>Psalmist, Lord, what is man, that thou art mindful of him? and the son of man, that thou visitest him?</hi>
+                     </p>
+                     <p>But this is not all; for this is a <hi>peculiar</hi> favour to his Chosen.
+<pb n="13" facs="tcp:205476:19"/> He is pleas'd to manifest himself to <hi>them,</hi> and not unto the <hi>World.</hi> Unto them he turns the bright side of the Cloud, while others, like the <hi>Egyptians,</hi> are in darkness. <hi>To you</hi> (says he) <hi>it is given to know the Mysteries of the Kingdom of Heaven, but to others it is not given.</hi> Oh, how may we admire this distinguishing Love of our Divine Redeemer! and how may we (how can we but) rejoyce in it! As he once said to his Disciples, <hi>I have meat to eat which ye know not of;</hi> So may we say to the World, We have Spiritual Com<g ref="char:EOLhyphen"/>forts to feed and feast our Souls with, which you know not of. No, our Joys are such as <hi>Strangers</hi> do not <hi>intermeddle</hi> with. 'Tis not only <hi>Propriety,</hi> but <hi>Peculiarity</hi> which adds sweetness to all our
+<pb n="14" facs="tcp:205476:20"/> Enjoyments, and both are here. <hi>We are thine, thou never barest rule over them, they were not called by thy Name,</hi> Isa. 63. 19. <hi>He hath not dealt so with any Nation, and as for his Judgments they have not known them,</hi> Psal. 147. 20.</p>
+                     <p>And why then are we not sa<g ref="char:EOLhyphen"/>tisfied with our Portion, but are ready to envy the enjoyments of the wicked? If <hi>we</hi> have Joys which <hi>they</hi> do not intermeddle with, why should we desire to intermeddle with <hi>theirs?</hi> Are not ours better, or would we <hi>change</hi> with them? Surely no: why then are we not abundantly contented with our Lot and Portion? If the Lord be our Portion, then surely we can<g ref="char:EOLhyphen"/>not but say, <hi>The lines are fallen to us in pleasant places, and we have a goodly heritage.</hi> And how can
+<pb n="15" facs="tcp:205476:20"/> we be sad or troubled? Does the <hi>Sun</hi> of Righteousness shine upon us, and can we hang down our Heads? Does our dear Redeemer <hi>smile</hi> up<g ref="char:EOLhyphen"/>on us, and can we be sorrowful in any condition? May he not say to us, as <hi>Elkanah</hi> did to <hi>Hannah, Why is thy countenance sad? Am not I better to thee than ten Sons,</hi> than ten Friends? Could <hi>Micah</hi> say of his Idols, <hi>Ye have taken away my gods, and what have I more? And do ye ask what aileth me?</hi> And may not we better say, Ye <hi>cannot</hi> take away our God, but we have his comfortable presence with us, and what can we have more, or how can we ail any thing? Could <hi>Dio<g ref="char:EOLhyphen"/>genes,</hi> being ask'd by <hi>Alexander,</hi> (who it seems stood betwixt him and the Sun) what he would re<g ref="char:EOLhyphen"/>quest of him, and he should have
+<pb n="16" facs="tcp:205476:21"/> it, could he answer, <hi>Nunc quidem paululum à Sole absis. At present only stand out of my Sunshine?</hi> Ci<g ref="char:EOLhyphen"/>cero. And can we desire any thing more than the warming comforta<g ref="char:EOLhyphen"/>ble beams of the Sun of Righte<g ref="char:EOLhyphen"/>ousness? And would it not better become us than it did him to re<g ref="char:EOLhyphen"/>fuse and contemn all those vain Pleasures, Profits, and Honours, which would obscure the light of God's Countenance, and hide his Face from us?</p>
+                     <p>Oh Lord! Lift but thou up the Light of thy Countenance upon me, and it will put joy and glad<g ref="char:EOLhyphen"/>ness into my Heart more than when Corn and Wine (and all other Comforts) increased.</p>
+                  </div>
+                  <div type="meditation">
+                     <pb n="17" facs="tcp:205476:21"/>
+                     <epigraph>
+                        <bibl>MICAH II. 10.</bibl>
+                        <q>Arise ye, and depart, for this is not your rest.</q>
+                     </epigraph>
+                     <p>'TIS an amazing thing to consider the <hi>perverseness</hi> of men, that nothing can beat them off from expecting Rest and Hap<g ref="char:EOLhyphen"/>piness in <hi>this World,</hi> nor perswade them to seek it in a better. Tho' they have been told over and over of the Experiences of <hi>all men,</hi> in <hi>all states</hi> and <hi>conditions,</hi> and in <hi>all Ages,</hi> how they have been cross'd in all their pursuits after Happi<g ref="char:EOLhyphen"/>ness, and disappointed of all their hopes of finding <hi>Rest</hi> and Satisfa<g ref="char:EOLhyphen"/>ction in any thing here below; yet such is the <hi>incredulity</hi> of men,
+<pb n="18" facs="tcp:205476:22"/> that they will not believe the At<g ref="char:EOLhyphen"/>testations of those that have gone before them, but they must needs try <hi>themselves</hi> before they will be convinced of a Truth so univer<g ref="char:EOLhyphen"/>sally owned and acknowledged. And it were well if even <hi>that</hi> would satisfie them, but alas it will not; for tho' they have made the Experiment themselves again and again in vain, and have met with nothing but crosses and disappoint<g ref="char:EOLhyphen"/>ments all their days hitherto, yet will they not say, <hi>There is no hope,</hi> but will lay the fault on the <hi>ma<g ref="char:EOLhyphen"/>lice</hi> of <hi>Enemies,</hi> or <hi>unfaithfulness</hi> of <hi>Friends,</hi> or their own <hi>Impru<g ref="char:EOLhyphen"/>dence,</hi> or any thing but the <hi>Vanity</hi> of the things themselves, which one would think so much dear-bought Experience might suffici<g ref="char:EOLhyphen"/>ently convince them are <hi>uncapable</hi>
+                        <pb n="19" facs="tcp:205476:22"/> of affording them that Comfort and Satisfaction they expected from them. And this were still more <hi>excusable</hi> if they had never heard of a place where this Rest is <hi>certainly</hi> to be found, nor had ever been shewn the <hi>way</hi> to obtain it. But even those that know this, and pretend to believe that Heaven is a place of <hi>perfect</hi> Rest and Happiness, and seem to make it their business to walk in the way to it, and to endeavour to qualifie themselves for the obtaining and enjoyment of it, yet even those are unwilling to <hi>arise and depart,</hi> unwilling to be where they are <hi>sure</hi> to be <hi>perfectly</hi> and <hi>eternally</hi> Happy.</p>
+                     <p>BUT why (O my Soul) dost thou thus accuse others, as if thou wert clear in this matter, when
+<pb n="20" facs="tcp:205476:23"/> alas! thou art equally involved in the same guilt with other men? Notwithstanding thou hast met with so large a Portion of <hi>Afflicti<g ref="char:EOLhyphen"/>ons,</hi> which might have weaned thee from this World, and make thee desirous of a better. But alas, how little of those Effects have they produced in thee? How lit<g ref="char:EOLhyphen"/>tle hast thou chang'd thy Opinion of those earthly things? Some<g ref="char:EOLhyphen"/>times indeed thou makest sad <hi>Com<g ref="char:EOLhyphen"/>plaints</hi> of the <hi>emptiness</hi> of Earthly Comforts, and of the <hi>vanity</hi> and <hi>vexation</hi> that attends all worldly enjoyments, but this is only in a <hi>pet,</hi> upon some great Cross and Disappointment, when the afflictive sense of it is worn off a little, thou presently returnest to thy old course, and renewest thy vain pur<g ref="char:EOLhyphen"/>suits after that which has always deluded thy expectations.</p>
+                     <q>
+                        <pb n="21" facs="tcp:205476:23"/>—<gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>; <bibl>Theocr.</bibl>
+                     </q>
+                     <p>Why dost thou still follow that which always flies from thee? Nay, which is not in Nature.</p>
+                     <q>
+                        <l>Credule, quid frustrâ simulachra fugacia captas?</l>
+                        <l>Quod petis, est nusquam. <bibl>
+                              <hi>Ovid. Met. 3.</hi>
+                           </bibl>
+                        </l>
+                     </q>
+                     <p>Why then dost thou not arise by a Contemplation of Peace, and Rest, and Happiness, which if rightly sought will never deceive thee, will never <hi>frustrate</hi> thy ex<g ref="char:EOLhyphen"/>pectations, but abundantly <hi>satisfie</hi> them and <hi>exceed</hi> them? Thou pre<g ref="char:EOLhyphen"/>tendest to seek a better <hi>Country,</hi> even an Heavenly, but how is it then that thou art so little con<g ref="char:EOLhyphen"/>cern'd and sollicitous about it? that it has so little room in thy
+<pb n="22" facs="tcp:205476:24"/> heart, so small a share in thy thoughts and desires? And why then art thou for building Taber<g ref="char:EOLhyphen"/>nacles here? Is a <hi>strange Land</hi> so desirable to thee? Are there such Charms in a Foreign Savage Coun<g ref="char:EOLhyphen"/>try, in a barren Wilderness afford<g ref="char:EOLhyphen"/>ing nothing but Briars and Thorns, Serpents and Scorpions, as to make thee careless and undesirous of the Heavenly <hi>Canaan,</hi> a Land flowing with better than Milk and Honey? A place of uninterrupted Peace and Rest. Here thou hast no <hi>continu<g ref="char:EOLhyphen"/>ing City,</hi> and while thou art here thou meetest with nothing but la<g ref="char:EOLhyphen"/>bour, and toil, and trouble, but</p>
+                     <q>Is locus urbis erit, requies ea certa laborum. <bibl>
+                           <hi>Virg.</hi>
+                        </bibl>
+                     </q>
+                     <p>Here thou art always perplexing thy self with vain hopes and fears,
+<pb n="23" facs="tcp:205476:24"/> and canst not quietly enjoy those little Comforts thou might some<g ref="char:EOLhyphen"/>times have, for thinking of what may come <hi>hereafter,</hi> but there</p>
+                     <q>
+                        <l>No cares o'th' future their free thoughts employ,</l>
+                        <l>The business of the place is to en<g ref="char:EOLhyphen"/>joy.</l>
+                        <bibl>
+                           <hi>Tate.</hi>
+                        </bibl>
+                     </q>
+                     <p>Here thou art perpetually tost on a restless <hi>Sea</hi> of trouble and dis<g ref="char:EOLhyphen"/>quiet, but</p>
+                     <q>
+                        <l>Illis parta quies: nullum maris aequor arandum;</l>
+                        <l>Arva neque Ausoniae, semper cre<g ref="char:EOLhyphen"/>dentia retro</l>
+                        <l>Quaerenda.</l>
+                        <bibl>
+                           <hi>Virg.</hi>
+                        </bibl>
+                     </q>
+                     <p>Thou pretendest to be Heir to a <hi>Kingdom,</hi> but how forgetful art thou of thine Inheritance? And what need hast thou to be awakened with an</p>
+                     <q>
+                        <l>—Heu regni rerumque oblite tua<g ref="char:EOLhyphen"/>rum!</l>
+                        <bibl>
+                           <hi>Virg.</hi>
+                        </bibl>
+                     </q>
+                     <pb n="24" facs="tcp:205476:25"/>
+                     <p>Awake then, O my Soul, lie not groveling in the Dust, but arise and flie away, at least in thy thoughts and desires, to thy Inheritance, thy Kingdom, thy Country, thy Rest<g ref="char:EOLhyphen"/>ing place. For as God never rested till he had made Man, so Man will never find true Rest till he come to enjoy God.</p>
+                     <p>LORD, raise up my thoughts above this tempestuous and tumul<g ref="char:EOLhyphen"/>tuous World, and grant that all those Crosses, and Disappointments, and Troubles, and Afflictions I meet with here, may at length suf<g ref="char:EOLhyphen"/>ficiently wean me from this world, and make me weary of it, so that I may heartily desire, <hi>Oh that I had the wings of a Dove, then would I flie away and be at rest.</hi>
+                     </p>
+                  </div>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:205476:25"/>
+                  <p>DIVINE Breathings.</p>
+                  <q>
+                     <l>Ʋt jugulent homines surgunt de nocte latrones,</l>
+                     <l>Ʋt teipsum serves, non expergisceris?</l>
+                     <bibl>Hor.</bibl>
+                  </q>
+                  <q>
+                     <l>—Isque licet Coeli regione remotus,</l>
+                     <l>Mente Diis adiit: &amp; quae natura ne<g ref="char:EOLhyphen"/>gabat</l>
+                     <l>Visibus humanis, oculis ea pectoris hansit.</l>
+                     <bibl>Ovid. Met. lib. 15.</bibl>
+                  </q>
+                  <p>
+                     <hi>LONDON:</hi> Printed for <hi>John Lawrence,</hi> at the <hi>Angel</hi> in the <hi>Poultrey;</hi> And <hi>Joseph Wats,</hi> at the <hi>Angel</hi> in St. <hi>Paul</hi>'s Church-yard. 1691.</p>
+               </div>
+            </front>
+            <body>
+               <div type="inspired_thoughts">
+                  <pb facs="tcp:205476:26"/>
+                  <pb n="27" facs="tcp:205476:26"/>
+                  <head>DIVINE <hi>Breathings.</hi>
+                  </head>
+                  <div type="inspiration">
+                     <head>Immortality.</head>
+                     <p>I Find that an <hi>Immortal</hi> Soul cannot be satisfied with less than an <hi>Eternal</hi> Happiness. Tho' some degenerate Souls that are drowned in Pleasure and Sen<g ref="char:EOLhyphen"/>suality can be contented to have their Portion in <hi>this Life,</hi> yet a se<g ref="char:EOLhyphen"/>rious and spiritually-minded Chri<g ref="char:EOLhyphen"/>stian has other thoughts and de<g ref="char:EOLhyphen"/>sires, and cannot but be sollicitous
+<pb n="28" facs="tcp:205476:27"/> to secure a <hi>Future Happiness</hi> that shall have a longer date. Suppose <hi>Satan</hi> should come to him, as once to his Lord and Master, and shew him all the Kingdoms of the World, and the Glory of them, and should tell him, All this will I give thee to enjoy as long as thou <hi>livest;</hi> he would answer, But what shall I have when this Life is <hi>ended?</hi> Tho' there were no <hi>Hell,</hi> yet could not I be satisfied if there were no <hi>Heaven</hi> neither. 'Tis not <hi>worth the while</hi> to live in this World if there were not an <hi>Eternal</hi> Life be<g ref="char:EOLhyphen"/>yond it. I can take little pleasure in the enjoyments of <hi>this Life</hi> if it were not for the hopes of a bet<g ref="char:EOLhyphen"/>ter <hi>hereafter.</hi>
+                     </p>
+                     <p>Lord! as thou hast made me <hi>Immortal</hi> like thy self, so make me <hi>Holy</hi> like thy self, and then thou
+<pb n="29" facs="tcp:205476:27"/> wilt not only be my God and Guide unto <hi>Death,</hi> but my <hi>Por<g ref="char:EOLhyphen"/>tion for ever.</hi>
+                     </p>
+                  </div>
+                  <div type="inspiration">
+                     <head>The Life of Faith.</head>
+                     <p>WHat kind of Life is it, O my Soul, that thou livest? A Life of <hi>Faith,</hi> or a Life of <hi>Sense?</hi> Are the Comforts and Enjoyments of this Life pleasing and delightful to thee <hi>in themselves,</hi> and for their <hi>own sakes,</hi> or rather as they are <hi>Tokens</hi> of the love of thy God, and <hi>Earnests</hi> of greater and diviner Blessings hereafter? Canst thou rest in these as thy Happiness and <hi>Portion?</hi> Then expect nothing hereafter but a <hi>Memento recipisti,</hi> Remember thou hast already re<g ref="char:EOLhyphen"/>ceived thy good things: Or ra<g ref="char:EOLhyphen"/>ther
+<pb n="30" facs="tcp:205476:28"/> does not the greatest pleasure and satisfaction in these enjoyments result from the <hi>Comparing</hi> them with those Joys reserv'd in Hea<g ref="char:EOLhyphen"/>ven for thee? When thou sittest down at thy Table, is thy Meat only grateful to thy <hi>Tast?</hi> Or ra<g ref="char:EOLhyphen"/>ther art not <hi>thou</hi> filled with a sense of God's Love and Bounty to thee, who has not only provided so plentifully for thy <hi>Body</hi> here, but will more sweetly feast <hi>Thee</hi> hereafter, when thou shalt be cal<g ref="char:EOLhyphen"/>led to the Marriage-Supper of the Lamb, and <hi>eat bread in the King<g ref="char:EOLhyphen"/>dom of God?</hi> When thou lyest down in a soft and warm Bed, is it pleasing to thee only because it feels so to thy flesh? Or rather be<g ref="char:EOLhyphen"/>cause thou thinkest the same Love which has given thee these Mercies, will ere long bring thee where
+<pb n="31" facs="tcp:205476:28"/> thou shalt <hi>stand in no need</hi> of such Refreshments, where thou shalt not rest day nor night from sing<g ref="char:EOLhyphen"/>ing Praises unto thy God? And is not the <hi>fore-thought</hi> of this sweet<g ref="char:EOLhyphen"/>er than thy present <hi>Enjoyments?</hi> When thou goest to visit a <hi>Friend,</hi> is it <hi>their</hi> Conversation and Society that is the most aceptable to thee? Or rather the conversing with <hi>God by them,</hi> and enjoying <hi>his presence</hi> in them? Is their Love and Kind<g ref="char:EOLhyphen"/>ness in it self grateful to thee? Or rather as it is an <hi>Earnest</hi> and <hi>Pledge</hi> of the <hi>Love of God</hi> to thee? This is the way to <hi>improve</hi> all outward Blessings, and make them a thou<g ref="char:EOLhyphen"/>sand times sweeter to a true Chri<g ref="char:EOLhyphen"/>stian, than the very <hi>same</hi> Enjoy<g ref="char:EOLhyphen"/>ments are to others. Suppose two Young <hi>Virgins,</hi> one of them the <hi>Prince</hi> intends to Marry, the other
+<pb n="32" facs="tcp:205476:29"/> not: To the one he gives several thousands of pounds, but only as a bare <hi>Gift,</hi> to be her <hi>Portion;</hi> to the other he gives only a <hi>Ring or Jewel,</hi> but says, Take this as a Pledge of my Love, and rest as<g ref="char:EOLhyphen"/>sured that <hi>all that I have and am is thine.</hi> Thus does God deal with the Men of the <hi>World,</hi> and with his own <hi>Children:</hi> Or rather as <hi>Abraham</hi> with <hi>Isaac,</hi> and his other Sons by <hi>Keturah;</hi> to the latter he only <hi>gave Gifts,</hi> and sent them <hi>away,</hi> but to <hi>Isaac</hi> he gave <hi>all that he had.</hi>
+                     </p>
+                     <p>Lord <hi>let me have a portion of the good things of this Life, but let me not have my Portion in this Life.</hi>
+                     </p>
+                  </div>
+                  <div type="inspiration">
+                     <pb n="33" facs="tcp:205476:29"/>
+                     <head>Slothfulness.</head>
+                     <p>WHY, O my Soul, art thou so careless, slothful, and negligent? Why is there such a <hi>disproportion</hi> between thy <hi>Labour</hi> and the <hi>Reward</hi> thou expectest? Dost thou hope to win <hi>Heaven</hi> by <hi>sleeping?</hi> Or to get Glory and Ho<g ref="char:EOLhyphen"/>nour, Immortality and Eternal Life by doing nothing? Tho' the <hi>best</hi> of thy Services cannot <hi>deserve Heaven,</hi> yet surely <hi>Heaven</hi> will <hi>deserve</hi> the <hi>best</hi> of thy Services, the utmost of thy pains and dili<g ref="char:EOLhyphen"/>gence to obtain it. Tho' the most thou canst do can <hi>merit nothing</hi> from <hi>God,</hi> yet surely he <hi>deserves more</hi> from <hi>thee</hi> than he receives. O why wilt thou be negligent in
+<pb n="34" facs="tcp:205476:30"/> the Service of such a Master? Thou shalt not serve him for <hi>nought:</hi> No, he will give Grace and Glory, and <hi>no good thing</hi> will he with<g ref="char:EOLhyphen"/>hold from them that walk upright<g ref="char:EOLhyphen"/>ly, from them that serve him di<g ref="char:EOLhyphen"/>ligently. O therefore sit not here all the day idle, but fall to work in earnest, labour diligently, and doubt not of thy Reward.</p>
+                     <p>Lord, quicken me according to thy word, and do thou work in me both to will and to do of thy good pleasure.</p>
+                  </div>
+                  <div type="inspiration">
+                     <head>True Riches.</head>
+                     <p>THE Diligent hand makes rich, says <hi>Solomon;</hi> and it is as true in <hi>Spirituals</hi> as in <hi>Tempo<g ref="char:EOLhyphen"/>rals.</hi> How rich in Grace mightest
+<pb n="35" facs="tcp:205476:30"/> thou be, O my Soul, if thou would'st but <hi>labour</hi> for it? What a <hi>Stock</hi> mightest thou have lying by thee, to use and employ upon all occasions? How rich mightest thou be in <hi>Comfort!</hi> What a No<g ref="char:EOLhyphen"/>ble Table mightest thou keep, and daily <hi>Feast</hi> thy self with plenty and variety of Spiritual Dainties! Oh what rich Mines and Treasures mighest thou find and possess if thou would'st but be at the pains to dig for them! Some Riches in<g ref="char:EOLhyphen"/>deed are to be found in the very <hi>Surface</hi> of Religion, but what greater store, and how much more precious are there <hi>within?</hi> Oh lose nothing for want of Diligence. Thou canst never be rob'd of this Treasure. This <hi>Coin</hi> will be <hi>Cur<g ref="char:EOLhyphen"/>rant</hi> in another World, and thou mayest carry it with thee into E<g ref="char:EOLhyphen"/>ternity.</p>
+                     <pb n="36" facs="tcp:205476:31"/>
+                     <p>Lord, make me poor in Spirit, but rich in Grace here, and in Glory hereafter.</p>
+                  </div>
+                  <div type="inspiration">
+                     <head>Spiritual Manna.</head>
+                     <p>WHY wilt thou be almost famished (O my Soul) for want of Spiritual Food, when there is so much precious <hi>Manna</hi> lies scattered round about thy <hi>Tent,</hi> of which thou mayst have thy fill, if thou wilt but be at the pains to <hi>gather</hi> it. Seest thou not <hi>Others</hi> gathering it apace, and re<g ref="char:EOLhyphen"/>turning with their <hi>Omers</hi> full of it, and feeding heartily upon it to their unspeakable Joy and Com<g ref="char:EOLhyphen"/>fort? Oh how does it nourish and strengthen them! How does it make them thrive and be fat and
+<pb n="37" facs="tcp:205476:31"/> well-liking! One may see it in their very <hi>Countenances.</hi> This is not such <hi>light Food</hi> as the World imagines. It makes them hearty and strong for the Service of God. It makes them run and not be weary, and walk and not be faint. No wonder thou art so faint and feeble, no wonder thou art so dull and listless, and hast no mind to thy Work; no wonder thou hast so little <hi>strength</hi> to fight the Lord's Battles when thou hast been so long <hi>Fasting.</hi> How much greater a Slaughter mightest thou have made of thy Spiritual Enemies, if thou hadst <hi>eaten freely</hi> of this <hi>Honey?</hi> What a greater <hi>Progress</hi> mightest thou have made in thy way to Heaven, and with how much chearfulness mightest thou have run the Race that is set
+<pb n="38" facs="tcp:205476:32"/> before thee, if thou hadst fed hear<g ref="char:EOLhyphen"/>tily of this <hi>Angels Food! Arise</hi> and <hi>eat,</hi> again and again, or else the <hi>Journey</hi> will be <hi>too great</hi> for thee. How canst thou <hi>work</hi> if thou dost not <hi>eat?</hi> Or how canst thou expect to <hi>eat</hi> if thou dost not <hi>work?</hi> Tho' this Bread be <hi>rained from Heaven,</hi> yet it will not <hi>drop into thy mouth</hi> of its own accord. In the sweat of thy brows must thou earn (even this) thy Bread; but trust in the Lord, in the use of means, and verily thou shalt be fed.</p>
+                     <p>Lord make me to hunger and thirst after Righteousness, (and that will put me upon endeavours af<g ref="char:EOLhyphen"/>ter it) and then I shall be filled.</p>
+                  </div>
+                  <div type="inspiration">
+                     <pb n="39" facs="tcp:205476:32"/>
+                     <head>The Best Portion.</head>
+                     <p>O My Soul! would'st thou be a real Christian, and happy here as well as hereafter? Then chuse <hi>God</hi> for thy only Portion in the Land of the living. Seek thy Felicity in <hi>him</hi> only, and let no<g ref="char:EOLhyphen"/>thing in the World stand in com<g ref="char:EOLhyphen"/>petition with him. And don't deceive thy self with <hi>thinking</hi> thou dost so (in the general) whilest earth and things below have so much of thy secret Love and Af<g ref="char:EOLhyphen"/>fection; but be sure thou beest in <hi>earnest,</hi> that when thou comest to be tryed (in any particular) it may evidently appear both to thy self and others. There is no <hi>dal<g ref="char:EOLhyphen"/>lying</hi> in the case, nor hanging in
+<pb n="40" facs="tcp:205476:33"/>
+                        <hi>suspence</hi> between Heaven and Earth: No, that will never do; but as <hi>Elijah</hi> said to the People of <hi>Israel, How long halt ye between two Opi<g ref="char:EOLhyphen"/>nions? If the Lord be God, follow him; but if</hi> Baal <hi>be God, then fol<g ref="char:EOLhyphen"/>low him:</hi> So, if <hi>God,</hi> and <hi>Heaven,</hi> and <hi>Eternal Glory</hi> be the chief Goods, seek them; but if thou thinkest the <hi>World,</hi> and the <hi>Flesh,</hi> and its short Pleasures better, then seek them, and let the <hi>other</hi> go; but never flatter thy self with the hopes of enjoying <hi>both,</hi> for assu<g ref="char:EOLhyphen"/>redly thou wilt be mistaken, and (if thou goest on) thy Error will be fatal and remediless. There<g ref="char:EOLhyphen"/>fore make a final determinate <hi>Re<g ref="char:EOLhyphen"/>solution,</hi> and let nothing draw thee from it.</p>
+                     <p>And is it hard to determine in the case? When <hi>Life</hi> and <hi>Death,
+<pb n="41" facs="tcp:205476:33"/> God</hi> and the <hi>World, Heaven</hi> and <hi>Earth</hi> are set before thee, is it hard to make thy Choice? Is Earth so lovely, and the Flesh so charming, and their Delights and Pleasures so <hi>sweet</hi> and <hi>grateful,</hi> so <hi>sure</hi> and <hi>last<g ref="char:EOLhyphen"/>ing</hi> as to render them more eligible than <hi>Heavenly Glories?</hi> No, no, my Soul, thou knowest they are not. No alas! they are <hi>vain</hi> and <hi>empty, fading</hi> and <hi>uncertain, tran<g ref="char:EOLhyphen"/>sient</hi> and <hi>perishing, foolish</hi> and <hi>ri<g ref="char:EOLhyphen"/>diculous,</hi> and all (and more than all) that thou canst think of <hi>vile</hi> and <hi>contemptible.</hi> But now turn thine Eye to <hi>God,</hi> and thou wilt find him a rich and <hi>satisfying Por<g ref="char:EOLhyphen"/>tion;</hi> nothing canst thou wish or desire but thou wilt find it in <hi>him,</hi> nay, infinitely more than thou canst desire or conceive. He will be thy <hi>joy</hi> and <hi>rejoycing</hi> in <hi>Prospe<g ref="char:EOLhyphen"/>rity,</hi>
+                        <pb n="42" facs="tcp:205476:34"/> thy <hi>support</hi> and <hi>comfort</hi> in <hi>Ad<g ref="char:EOLhyphen"/>versity.</hi> He will fill thee with Joy and Comfort even in the midst of all outward Troubles and Afflictions. He will be a sure <hi>help</hi> in time of <hi>need,</hi> and <hi>stand by</hi> thee when all the World <hi>forsakes</hi> thee. He will be a <hi>suitable</hi> sup<g ref="char:EOLhyphen"/>ply to all thy wants and necessities <hi>here,</hi> and an <hi>Everlasting Portion</hi> to thee hereafter.</p>
+                     <p>And this thou canst not doubt of, since thou hast <hi>experienced</hi> much of it already. Nothwith<g ref="char:EOLhyphen"/>standing thou hast <hi>loved</hi> him so little, and <hi>served</hi> him so poorly, and <hi>provoked</hi> him so highly, with thy <hi>distrust</hi> of his Goodness, <hi>repi<g ref="char:EOLhyphen"/>ning</hi> at his Dealings, and <hi>ingrati<g ref="char:EOLhyphen"/>tude</hi> for his Mercies: Notwith<g ref="char:EOLhyphen"/>standing thou hast so oft <hi>forsaken</hi> him the Fountain of Living Wa<g ref="char:EOLhyphen"/>ter,
+<pb n="43" facs="tcp:205476:34"/> and hast digged to thy self Cisterns, which have proved <hi>bro<g ref="char:EOLhyphen"/>ken Cisterns</hi> that would hold no Water: (For thou hast experienc'd enough of <hi>Earth</hi> too, to let thee see its <hi>vanity,</hi> and feel its <hi>vexa<g ref="char:EOLhyphen"/>tions,</hi> and to convince thee that all things here below, even the <hi>best</hi> of earthly Comsorts are flit<g ref="char:EOLhyphen"/>ting and <hi>uncertain,</hi> and not only <hi>unsatisfying</hi> but <hi>tormenting</hi> and then surely very unfit to be chosen and rested in as thy Felicity:) Not<g ref="char:EOLhyphen"/>withstanding (I say) thou hast so often run away from <hi>God,</hi> and sought Rest, and Happiness, and Contentment in the <hi>Creature,</hi> he has only let thee alone a while to take thy choice, that thou mightest smart a little for thy folly; and then as soon as thou hast returned to him, he has received thee, and
+<pb n="44" facs="tcp:205476:35"/> sweetned all thy Troubles, and given thee strength to bear them, and given thee deliverance out of them.</p>
+                     <p>And now canst thou think that when thou forsakest the World (in thy heart and affections) and chusest him only for thy Portion, that he will deceive thee? No, no; such a thought would be unwor<g ref="char:EOLhyphen"/>thy of him. He will rather, with the <hi>Father</hi> of the Prodigal, run to meet thee, and not suffer thee to <hi>speak</hi> thy desires before he will <hi>sa<g ref="char:EOLhyphen"/>tisfie</hi> them. And doubt not but whatever thou leavest or losest <hi>for</hi> him, thou wilt find it abundantly supplyed <hi>in</hi> and <hi>by</hi> him. And one thing more take along with thee for thy Comfort, He is a Portion that can never be <hi>lost</hi> or <hi>taken</hi> from thee. <hi>Friends</hi> may take
+<pb n="45" facs="tcp:205476:35"/> themselves away from thee, and be<g ref="char:EOLhyphen"/>come <hi>Strangers</hi> if not <hi>Enemies;</hi> and Enemies may take away most of thy outward Comforts; (tho' nei<g ref="char:EOLhyphen"/>ther of these without his permissi<g ref="char:EOLhyphen"/>on) but neither <hi>Friends</hi> nor <hi>Ene<g ref="char:EOLhyphen"/>mies,</hi> neither <hi>Men</hi> nor <hi>Devils</hi> can take away thy <hi>God.</hi> Nay, even <hi>Death</hi> it self, which will deprive thee of all other things, cannot rob thee of this Treasure, but on the contrary will bring thee to a full possession and enjoyment of it.</p>
+                     <p>Lord! be thou my Portion in the Land of the Living, and let me not only <hi>chuse thee,</hi> but make it appear (it will thereby appear) that thou hast <hi>chosen me.</hi> I am too apt to ex<g ref="char:EOLhyphen"/>pect more Happiness and Content<g ref="char:EOLhyphen"/>ment from <hi>Creatures</hi> than they are ever able to afford me; but from <hi>thee</hi> I can never expect the thou<g ref="char:EOLhyphen"/>sandth
+<pb n="46" facs="tcp:205476:36"/> part of what I shall be sure to find. I am too apt to fancy and imagine <hi>greater Excellencies</hi> in the <hi>Creatures</hi> than are really in them, but <hi>thy Excellencies</hi> and <hi>Perfections</hi> are far beyond my highest <hi>Con<g ref="char:EOLhyphen"/>ceptions,</hi> and such as I shall never be able fully to <hi>comprehend.</hi> Yet be thou pleased to manifest thy self to me as thou usest to do to those that love thee, and I shall soon comprehend so much of thee (and the richness of my Portion in thee) as to make me sing with the <hi>Psalmist, The lines are fallen to me in pleasant places, and I have a goodly Heritage.</hi>
+                     </p>
+                  </div>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:205476:36"/>
+                  <p>OCCASIONAL Reflections.</p>
+                  <q>
+                     <p>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>.</p>
+                     <bibl>Pythag.</bibl>
+                  </q>
+                  <q>
+                     <l>Memento te Immortalem esse.</l>
+                  </q>
+                  <p>
+                     <hi>LONDON:</hi> Printed for <hi>John Lawrence,</hi> at the <hi>Angel</hi> in the <hi>Poultrey;</hi> And <hi>Joseph Wats,</hi> at the <hi>Angel</hi> in St. <hi>Paul</hi>'s Chruch-yard. 1691.</p>
+               </div>
+            </front>
+            <body>
+               <div type="occasional_reflections">
+                  <pb facs="tcp:205476:37"/>
+                  <pb n="49" facs="tcp:205476:37"/>
+                  <head>OCCASIONAL <hi>Reflections.</hi>
+                  </head>
+                  <div type="occasion">
+                     <head>At my first Waking in the Morning.</head>
+                     <p>NOW, O my Soul, mount up like the generous Lark, and sing Praises unto thy God. It is but fit that he should have the <hi>First-fruits</hi> of thy <hi>Thoughts</hi> (this day and every day) from whom thou hast the <hi>power</hi> to <hi>think.</hi> Oh let not Sin or Vanity deflower and ravish thy
+<pb n="50" facs="tcp:205476:38"/>
+                        <hi>Virgin</hi>-thoughts; dost thou think the <hi>polluted remainders</hi> will be ac<g ref="char:EOLhyphen"/>ceptable to thy injur'd Lord and Husband? And is it not as <hi>easie</hi> to cast the first glance of thy waking thoughts upon <hi>God</hi> as upon the <hi>World?</hi> One would think thou should'st <hi>grudge</hi> so long a <hi>sleeping</hi>-time, which has kept thee so long from thy Beloved; and as soon as ever thou awakest thou should'st seek him whom thy Soul loveth. And yet how often has he stood at the Door knocking, <hi>till his head was filled with the dew, and his locks with the drops of the night,</hi> Cant. 5. 2. and thou hast <hi>refused</hi> to rise and open to him; nay, worse than so, when thou hast risen and opened, thou hast let in <hi>Sin,</hi> and shut out thy Saviour! Thou hast let in thy <hi>Enemy</hi> and shut out thy
+<pb n="51" facs="tcp:205476:38"/>
+                        <hi>Friend!</hi> Is <hi>this</hi> thy kindness to thy Friend? Is <hi>this</hi> Love? Is <hi>this</hi> the <hi>return</hi> thou makest for all which he has <hi>done</hi> and <hi>suffered</hi> for thee? For all his Patience and Long-suffering towards thee? Has he only deserved <hi>this</hi> at thy hands? Oh! blush and be ashamed of thy <hi>Ingratitude</hi> and <hi>Folly!</hi> that thou shouldest be so foolish and unwise, as thus to requite thy Lord! And let his goodness and long-suffering lead thee to Repentance. O beg of him that he would <hi>put his hand in by the hole of the door,</hi> that <hi>thy bowels might be moved for him:</hi> and that thou mayst <hi>arise and open to him before he</hi> (being grieved with thy unkindness) <hi>has with<g ref="char:EOLhyphen"/>drawn himself,</hi> Cant. 5. 4. And O long after such a frame of Spirit as that of <hi>David,</hi> when he said,
+<pb n="52" facs="tcp:205476:39"/>
+                        <hi>How precious are thy thoughts unto me, O God! When I awake I am still with thee,</hi> Psal. 139. 17, 18.</p>
+                  </div>
+                  <div type="occasion">
+                     <head>Ʋpon the Enjoyment of the Compa<g ref="char:EOLhyphen"/>ny of a Friend, for two or three hours, which was too pleasing and delightful to me.</head>
+                     <p>BLUSH and be ashamed, O my Soul, that thou should'st be so much pleased and delighted with any thing here below, tho' never so sweet and grateful. Has God sent thee such a Friend to be a Companion for thee, and to help, and direct, and comfort thee in thy passage to the Heavenly <hi>Canaan,</hi> and wilt thou bestow that <hi>Love</hi> and <hi>Complacency</hi> upon him, which thou owest only to thy
+<pb n="53" facs="tcp:205476:39"/>
+                        <hi>God?</hi> Canst thou be so much plea<g ref="char:EOLhyphen"/>sed with thy <hi>Inn,</hi> and with the Entertainments thou meetest with in the <hi>way,</hi> as almost to forget the <hi>Home</hi> thou art Travelling to? We use to say, <hi>Home's home, tho' it be never so homely:</hi> What think<g ref="char:EOLhyphen"/>est thou then will <hi>that</hi> Home be? That <hi>house not made with hands, eternal in the Heavens!</hi> that <hi>Man<g ref="char:EOLhyphen"/>sion prepared for thee!</hi> that <hi>Immor<g ref="char:EOLhyphen"/>tal Inheritance!</hi> that <hi>Kingdom of Glory!</hi> And wilt thou prize and value any thing here below before and above the <hi>hopes</hi> (which thou pretendest to have) of such a Kingdom? O consider whether thy <hi>Practice</hi> agrees with thy <hi>Pre<g ref="char:EOLhyphen"/>tences</hi> or not, whilest thy Heart is so taken up with these Earthly Enjoyments. Is <hi>this</hi> to act like one whose <hi>Conversation is in Hea<g ref="char:EOLhyphen"/>ven?</hi>
+                        <pb n="54" facs="tcp:205476:40"/> Is <hi>this</hi> a sign thy <hi>Affections</hi> are set on things <hi>above?</hi> Is <hi>this</hi> carriage becoming one whose <hi>fel<g ref="char:EOLhyphen"/>lowship</hi> is (or ought to be) with the <hi>Father,</hi> and with his <hi>Son Jesus Christ?</hi> Surely no. O then be ashamed of this thy Folly; and whenever thou art again tempted to over-value Earthly Enjoyments, say, <hi>Arise and depart, for this is not thy Rest,</hi> Micah 2. 10. Tho' this place be pleasant, yet still this is not <hi>Heaven:</hi> tho' these Enjoyments be sweet, yet still they come far short of <hi>an exceed<g ref="char:EOLhyphen"/>ing weight of Glory:</hi> tho' the So<g ref="char:EOLhyphen"/>ciety of such a Friend be very delightful, yet still <hi>to be with Christ is far better.</hi>
+                     </p>
+                     <p>BUT Ah Lord! how little has my carriage and behaviour
+<pb n="55" facs="tcp:205476:40"/> towards thee, how little has it been like One that does <hi>really be<g ref="char:EOLhyphen"/>lieve</hi> all this! How often when I have come into thy Presence (in Prayer or Meditation) how often have I been <hi>tir'd</hi> and <hi>weary</hi> of <hi>thy</hi> Company in <hi>half</hi> the time which I have spent in the Company of this Friend with so much delight and satisfaction? Oh do thou raise my Affections from this Earth, and bring me into a nearer Com<g ref="char:EOLhyphen"/>munion with <hi>Thee,</hi> and then sure<g ref="char:EOLhyphen"/>ly I should not delight so much in the <hi>Creature.</hi> Tho' my Heart and Affections be <hi>naturally</hi> bent upon these inferiour Objects, yet Oh shew forth thy <hi>Almighty Power</hi> in raising them. As he said, <hi>Lord, if thou wilt, thou canst make me clean.</hi> Matth. 8. 2. So I may say, <hi>Lord, if thou wilt, thou canst make
+<pb n="56" facs="tcp:205476:41"/> me Heavenly.</hi> Oh let me find and feel by <hi>Experience</hi> the <hi>truth</hi> of this upon my Soul! And do thou enable me for the future to walk as becomes the Gospel of <hi>Jesus Christ,</hi> so that tho' for a while my <hi>dwelling</hi> and <hi>abode</hi> be upon <hi>Earth,</hi> yet my <hi>Conversation</hi> may be in <hi>Heaven.</hi>
+                     </p>
+                  </div>
+                  <div type="occasion">
+                     <head>Ʋpon Winding up a Watch.</head>
+                     <p>I HAVE observed, that tho' I am forgetful enough of other things, yet I never (or very sel<g ref="char:EOLhyphen"/>dom) forget to wind up my Watch. And I have oft wonder'd at it, that tho' I be never so intent upon other things, yet as sure as I rise in the Morning, and go to bed at Night, so sure. I am to remember this.</p>
+                     <pb n="57" facs="tcp:205476:41"/>
+                     <p>BUT alas, how negligent am I in the mean time of my <hi>Spiri<g ref="char:EOLhyphen"/>tual Watch!</hi> How little careful am I to keep it <hi>going</hi> continually? How often do I let it <hi>fall</hi> and <hi>stand still,</hi> and when it does go, how faint and slow are its Motions? When I am alone in my Study, or awake in my Bed, I can hear my Watch go apace, but alas, in the mean time how faint and lan<g ref="char:EOLhyphen"/>guid are the motions of my Soul <hi>Heaven ward?</hi> Surely if I was but as careful every Morning to wind up my <hi>Affections</hi> Heaven-ward, by the earnest and lively Exercise of <hi>Faith</hi> and <hi>Love, Desire</hi> and <hi>Hope, Joy</hi> and <hi>Thankfulness:</hi> O how vigorously would the Pulse of my Soul beat all the day after! What Heavenly <hi>Breathings,</hi> and
+<pb n="58" facs="tcp:205476:42"/> pious <hi>Ejaculations</hi> would continu<g ref="char:EOLhyphen"/>ally be breaking forth? And tho' when I am amongst the <hi>croud</hi> and <hi>noise</hi> of the World, and the vain Concernments of it, I cannot so well perceive whether this my Spiritual Watch go or not; yet no sooner am I out of that hurry, and retir'd alone, but then I might easily discern it again. O that my Soul were always in such a frame! Oh that the continual <hi>bent</hi> of my Soul was towards <hi>God</hi> and <hi>Heaven,</hi> and that it was <hi>pain</hi> and <hi>grief</hi> to me to think of any thing else! But alas! what a great deal of pains must I be at to wind up this dull and earthly Heart of mine, and then how quickly is it down again!</p>
+                     <pb n="59" facs="tcp:205476:42"/>
+                     <p>O LORD! do thou set the Wheels of my Soul a going, and make me like the Chariots of <hi>Ami<g ref="char:EOLhyphen"/>nadib.</hi> Put Life into me, that I may move more constantly and vigorously towards <hi>thee,</hi> and strike off the Wheels when I am running to <hi>Sin</hi> and <hi>Vanity.</hi>
+                     </p>
+                  </div>
+                  <div type="occasion">
+                     <head>A Continuation.</head>
+                     <p>HOW many more Instru<g ref="char:EOLhyphen"/>ctions might this Watch af<g ref="char:EOLhyphen"/>ford me? When I wind it up in the <hi>Morning</hi> I may think, My Watch has kept going all this Night (as I see by the Motion of the Hand) but I have been in a <hi>sottish, senseless sleep,</hi> and wholly unserviceable either to God or
+<pb n="60" facs="tcp:205476:43"/> Man. And therefore what reason have I to spend this day (and every day) to the utmost of my power for the Glory of God, and the good of my own and others Souls? When I look at it again at <hi>Night,</hi> may it not suggest to me such thoughts as these? Here are now so many hours past away since I look'd at it last, which can never be <hi>recalled;</hi> but what have I done for God or my Soul all this time? These hours were not given me to please my <hi>Flesh</hi> in, or to serve my <hi>Self</hi> in, but to serve <hi>God</hi> in; and how little of his Work have I done? I must be ac<g ref="char:EOLhyphen"/>countable for every moment of this time, neither must I think to escape with the bare <hi>losing my Re<g ref="char:EOLhyphen"/>ward,</hi> but shall be also <hi>punished</hi> for my <hi>Idleness.</hi> But if my Conscience
+<pb n="61" facs="tcp:205476:43"/> acquit me that I have made it my business to spend this day to God's Glory, then may I with Joy and Comfort think, Here is <hi>one day more</hi> of my weary Pilgrimage past over, which will never come a<g ref="char:EOLhyphen"/>gain, and I am got so much near<g ref="char:EOLhyphen"/>er my Journey's end.</p>
+                     <p>LORD teach me so to num<g ref="char:EOLhyphen"/>ber my days, that I may apply my heart to true Wisdom. Oh make me so wise, as to <hi>Live to day,</hi> so as I may with comfort <hi>Die to morrow;</hi> and help me to wait all the days of my appointed time, till my Change come.</p>
+                  </div>
+                  <div type="occasion">
+                     <pb n="62" facs="tcp:205476:44"/>
+                     <head>Ʋpon my Indisposedness to write to a Friend.</head>
+                     <p>HOW seldom is it that I can get into a Humour of Wri<g ref="char:EOLhyphen"/>ting; and if not, how dull and lifelesly do I perform it? And what a sad thing it is, that the Service of God, and the Improve<g ref="char:EOLhyphen"/>ment of my own and my Friends Graces must depend and wait up<g ref="char:EOLhyphen"/>on my <hi>Humour!</hi> Is the <hi>Love</hi> of <hi>God,</hi> the <hi>Joys</hi> of <hi>Heaven,</hi> the <hi>Va<g ref="char:EOLhyphen"/>nity</hi> of the <hi>World,</hi> the <hi>worth</hi> of <hi>Souls,</hi> the <hi>preciousness</hi> of <hi>Grace,</hi> the <hi>sinfulness</hi> of <hi>Sin,</hi> the <hi>Sufferings</hi> of <hi>Christ,</hi> the <hi>Priviledges</hi> of the <hi>Saints,</hi> (with many more) are all these such dry and barren Sub<g ref="char:EOLhyphen"/>jects, that I can find nothing to
+<pb n="63" facs="tcp:205476:44"/> say of them? Is it not rather a sign that I am too little conver<g ref="char:EOLhyphen"/>sant with them?</p>
+                     <p>CAN I be sensible of the <hi>Love</hi> of <hi>God</hi> in <hi>Christ</hi> to <hi>me,</hi> and not break forth into passionate returns of <hi>Love</hi> and <hi>Praise</hi> to <hi>him?</hi> Can I think of the <hi>Joys</hi> of <hi>Heaven,</hi> and by Faith look on them as reserved for <hi>me,</hi> and can I be silent? Can I see and experienc<gap reason="illegible: blotted" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> the <hi>Vanity</hi> of the <hi>World,</hi> and not perswade every one I converse with to make sure for a <hi>better?</hi> Can I seriously think of the <hi>worth</hi> of <hi>Souls,</hi> and yet take no more pains to save them from eternal Ruin? Can I see and know the <hi>preciousness</hi> of Grace, and yet not strive to cherish and increase it where I find it, and do my ut<g ref="char:EOLhyphen"/>most to perswade others to get it?
+<pb n="64" facs="tcp:205476:45"/> Can I see the <hi>sinfulness</hi> of <hi>Sin,</hi> and not declaim against it? Can I be affected with the <hi>Sufferings</hi> of my dear <hi>Redeemer,</hi> and yet not let one passionate Exclamation drop from my Lips or Pen? And yet not forsake those Sins that Cruci<g ref="char:EOLhyphen"/>fie him afresh? Can I know and understand the <hi>Priviledges</hi> of the <hi>Saints,</hi> and believe that they be<g ref="char:EOLhyphen"/>long to me, and not rejoyce in them, and sh<gap reason="illegible: blotted" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>w them unto others? Would not my silence rather per<g ref="char:EOLhyphen"/>swade others that I am a <hi>Stranger</hi> to most of these things? O how far do I come short of living up to the Profession I make! How little force has the Love of Christ upon me to constrain me? Surely if I did but consider and <hi>muse</hi> upon these things, the <hi>fire would burn,</hi> and I could not but speak the
+<pb n="65" facs="tcp:205476:45"/> things which I have seen, and heard, and experienced.</p>
+                     <p>LORD! take away this dul<g ref="char:EOLhyphen"/>ness and indisposition of Spirit, and let me feel the Motions of thy Holy Spirit exciting me to diligence in the work of the Lord, and help me to hearken to them and obey them; that I may make it my <hi>business</hi> to promote thy Glo<g ref="char:EOLhyphen"/>ry, and the good of my own and others Souls; that I may be al<g ref="char:EOLhyphen"/>ways abounding in the work of the Lord, knowing that my La<g ref="char:EOLhyphen"/>bour shall not be in vain.</p>
+                  </div>
+                  <div type="occasion">
+                     <head>Ʋpon the singing of Larks.</head>
+                     <p>THIS Morning I took a walk into the Fields, and
+<pb n="66" facs="tcp:205476:46"/> amongst other delightful Objects, I was very much pleased with the <hi>singing</hi> of the <hi>Birds,</hi> and especial<g ref="char:EOLhyphen"/>ly the <hi>Larks,</hi> which I observ'd to mount and ascend towards Hea<g ref="char:EOLhyphen"/>ven, and unweariedly and chear<g ref="char:EOLhyphen"/>fully to sing the Praises of their great Creator.</p>
+                     <p>IT presently came into my thoughts, that this was a very fit Emblem of a <hi>Christian's Life,</hi> whose Conversation is in Heaven, and whose Affections are set on things above, and whose daily Business it is to shew forth the Praises of him who has called him out of dark<g ref="char:EOLhyphen"/>ness into his marvellous light. Tho' others, like the Beasts of the Field, have their eyes and thoughts always poring upon Earth and earthly things, and are constantly
+<pb n="67" facs="tcp:205476:46"/> either feeding upon <hi>present</hi> sensual enjoyments, or ruminating on the <hi>past,</hi> (or fore-casting for the <hi>fu<g ref="char:EOLhyphen"/>ture,</hi> and making provision for the Flesh to fulfil the Lusts there<g ref="char:EOLhyphen"/>of;) yet a Christian is of a far more noble and generous temper: he is daily ascending <hi>upwards</hi> in his thoughts and affections, and lives like one that is an Inhabitant of a <hi>purer Region;</hi> from thence he can look down with a <hi>pious scorn</hi> and <hi>contempt</hi> upon the sordid and feculent Pleasures of the de<g ref="char:EOLhyphen"/>generate World; there he ap<g ref="char:EOLhyphen"/>proaches nigh unto his God, and can humbly converse with his Ma<g ref="char:EOLhyphen"/>ker; his <hi>Work</hi> and <hi>Employment</hi> is praising of God, and maintaining Communion with him, and it is not more necessary than delight<g ref="char:EOLhyphen"/>ful. His very <hi>Business</hi> is his greatest
+<pb n="68" facs="tcp:205476:47"/>
+                        <hi>Happiness,</hi> and when he is exer<g ref="char:EOLhyphen"/>cised in <hi>that,</hi> he is in his <hi>Element.</hi>
+                     </p>
+                     <p>LORD help me always to walk like those who are redeemed from a vain conversation, and as<g ref="char:EOLhyphen"/>sist me in the performance of that blessed Work which I hope to be employed in to all Eternity, and hasten the time when I shall do nothing else.</p>
+                  </div>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </body>
+         </text>
+         <text xml:lang="eng">
+            <front>
+               <div type="title_page">
+                  <pb facs="tcp:205476:47"/>
+                  <p>SACRED POEMS.</p>
+                  <q>
+                     <l>Videnti Deum omnis Creatura est Angusta</l>.</q>
+                  <p>
+                     <hi>LONDON:</hi> Printed for <hi>John Lawrence,</hi> at the <hi>Angel</hi> in the <hi>Poultrey;</hi> And <hi>Joseph Wats,</hi> at the <hi>Angel</hi> in St. <hi>Paul</hi>'s Church-yard. 1691.</p>
+               </div>
+            </front>
+            <body>
+               <div type="sacred_poems">
+                  <pb facs="tcp:205476:48"/>
+                  <pb n="71" facs="tcp:205476:48"/>
+                  <head>SACRED POEMS.</head>
+                  <div type="poem">
+                     <head>The Love-sick Spouse.</head>
+                     <lg>
+                        <l>COME, dear <hi>Lord,</hi> and do not stay:</l>
+                        <l>Fetch thy Longing Spouse away.</l>
+                     </lg>
+                     <lg n="1">
+                        <head>I.</head>
+                        <l>Think on what I suffer here,</l>
+                        <l>Whilst thy <hi>Absence</hi> I must bear.</l>
+                        <pb n="72" facs="tcp:205476:49"/>
+                        <l>How I languish, how I faint!</l>
+                        <l>Whilst I do thy Presence want.</l>
+                        <l>O at length return and come,</l>
+                        <l>And in <hi>pity</hi> fetch me home.</l>
+                     </lg>
+                     <lg>
+                        <l>Come, dear Lord! and do not stay;</l>
+                        <l>Oh I cannot brook delay.</l>
+                     </lg>
+                     <lg n="2">
+                        <head>II.</head>
+                        <l>Oh how sweet thy <hi>Visits</hi> are!</l>
+                        <l>Nothing may with them compare:</l>
+                        <l>But how <hi>quickly</hi> art thou gone?</l>
+                        <l>Leaving me in tears alone,</l>
+                        <l>In a darksome tedious <hi>Night,</hi>
+                        </l>
+                        <l>Longing for the Morning-light.</l>
+                     </lg>
+                     <lg>
+                        <l>Come, dear Lord! and do not stay;</l>
+                        <l>Bring me to Eternal Day.</l>
+                     </lg>
+                     <lg n="3">
+                        <pb n="73" facs="tcp:205476:49"/>
+                        <head>III.</head>
+                        <l>Oh be pleas'd to set me free</l>
+                        <l>From my oft <hi>offending</hi> thee.</l>
+                        <l>Bring me where I shall resign</l>
+                        <l>Perfectly my <hi>will</hi> to thine:</l>
+                        <l>That I cannot now, does grieve me,</l>
+                        <l>O in mercy, Lord, relieve me.</l>
+                     </lg>
+                     <lg>
+                        <l>Come, dear <hi>Lord!</hi> and do not stay;</l>
+                        <l>Bring me where I shall obey.</l>
+                     </lg>
+                     <lg n="4">
+                        <head>IV.</head>
+                        <l>Free me from this <hi>Flesh,</hi> which here</l>
+                        <l>I about me alway<gap reason="illegible: blotted" extent="1 letter">
+                              <desc>•</desc>
+                           </gap> bear;</l>
+                        <l>Which in absence would perswade me</l>
+                        <l>To forget the God that made me:</l>
+                        <pb n="74" facs="tcp:205476:50"/>
+                        <l> Which does <hi>tempt</hi> me unto ill,</l>
+                        <l>And is oft <hi>prevailing</hi> still.</l>
+                     </lg>
+                     <lg>
+                        <l>Come, dear <hi>Lord!</hi> and do not stay;</l>
+                        <l>Dost thou <hi>Love</hi> me, and delay?</l>
+                     </lg>
+                     <lg n="5">
+                        <head>V.</head>
+                        <l>Yes, I'm sure, I'm sure thou dost,</l>
+                        <l>Thou hast <hi>shewn</hi> it to thy <hi>cost;</hi>
+                        </l>
+                        <l>I have <hi>tasted</hi> of it too,</l>
+                        <l>More than many others do,</l>
+                        <l>Oh increase my Love to thee,</l>
+                        <l>Who so tender art to me.</l>
+                     </lg>
+                     <lg>
+                        <l>Come, dear <hi>Lord!</hi> and do not stay;</l>
+                        <l>My Beloved, <gap reason="illegible: blotted" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap>me away.</l>
+                     </lg>
+                     <lg n="6">
+                        <pb n="75" facs="tcp:205476:50"/>
+                        <head>VI.</head>
+                        <l>Come <hi>Lord!</hi> for my treach'rous heart</l>
+                        <l>Whilst so long thou absent art,</l>
+                        <l>Does to thee <hi>disloyal</hi> prove,</l>
+                        <l>And lets <hi>others</hi> have its Love.</l>
+                        <l>Let that happy time hast on,</l>
+                        <l>When I shall be <hi>Thine alone.</hi>
+                        </l>
+                     </lg>
+                     <lg>
+                        <l>Come, dear <hi>Lord!</hi> and do not stay;</l>
+                        <l>Fetch thy longing Spouse away.</l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <head>The Pilgrimage.</head>
+                     <lg n="1">
+                        <head>I.</head>
+                        <l>IN vain we seek for <hi>Rest</hi> below,</l>
+                        <l>Where 'tis not to be found:</l>
+                        <pb n="76" facs="tcp:205476:51"/>
+                        <l>Rest is a Plant that will not grow</l>
+                        <l>In any earthly ground.</l>
+                     </lg>
+                     <lg n="2">
+                        <head>II.</head>
+                        <l>We're here engaged in a <hi>Race,</hi>
+                        </l>
+                        <l>A Race that must be run;</l>
+                        <l>Then look not for a <hi>Resting-place,</hi>
+                        </l>
+                        <l>Until our Race be done.</l>
+                     </lg>
+                     <lg n="3">
+                        <head>III.</head>
+                        <l>Some short refreshing baits we may</l>
+                        <l>Expect to find below;</l>
+                        <l>Such as may help us on our way</l>
+                        <l>More chearfully to go.</l>
+                     </lg>
+                     <lg n="4">
+                        <head>IV.</head>
+                        <l>Such are the <hi>Glympses</hi> of his Face,</l>
+                        <l>And those indearing <hi>Smiles,</hi>
+                        </l>
+                        <l>Which oft do quicken our dull pace,</l>
+                        <l>And sweeten all our toils.</l>
+                     </lg>
+                     <lg n="5">
+                        <pb n="77" facs="tcp:205476:51"/>
+                        <head>V.</head>
+                        <l>But our Eternal Rest's above,</l>
+                        <l>Beyond the starry Sky,</l>
+                        <l>In th' Arms of our dear <hi>Saviour</hi>'s Love,</l>
+                        <l>And Everlasting Joy.</l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <head>Emptiness in the Creature, Fulness in God.</head>
+                     <lg>
+                        <l>COME now my Soul, retire unto thy <hi>God.</hi>
+                        </l>
+                        <l>There thou maist find the sweetest best abode:</l>
+                        <l>The hungry Soul may go to him and find</l>
+                        <l>Full satisfaction for his craving mind.</l>
+                        <pb n="78" facs="tcp:205476:52"/>
+                        <l>Whil'st all the <hi>Vanities</hi> and <hi>Follies</hi> here,</l>
+                        <l>To such a Soul <hi>tastless</hi> and <hi>empty</hi> are.</l>
+                        <l>There's nothing in them that can ever fill</l>
+                        <l>A Christian's Soul, but leaves it craving still.</l>
+                        <l>He knows not how to <hi>relish</hi> such like Food,</l>
+                        <l>Which oft does <hi>hurt,</hi> but never can do <hi>good.</hi>
+                        </l>
+                        <l>But being wearied with those Va<g ref="char:EOLhyphen"/>nities,</l>
+                        <l>Straitway in secret to his <hi>God</hi> he flies:</l>
+                        <l>And when he's fill'd with sweet refreshing chear,</l>
+                        <l>He cries, 'Tis good that I continue here.</l>
+                        <pb n="79" facs="tcp:205476:52"/>
+                        <l>'Tis good indeed! O did the World but know</l>
+                        <l>The Comforts which into his mind do flow</l>
+                        <l>At such a time, they quickly would <hi>despise</hi>
+                        </l>
+                        <l>Their vain delights, and long for <hi>Heav'nly Joys.</hi>
+                        </l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <head>The Ʋnprofitable Servant.</head>
+                     <lg>
+                        <l>'TWAS on the day which God does call his own,</l>
+                        <l>When I retir'd to meditate alone:</l>
+                        <l>A Book I read, by which my thoughts were driven</l>
+                        <l>To serious views of the great Joys of <hi>Heaven.</hi>
+                        </l>
+                        <l>But ah! so great my <hi>vileness</hi> did appear,</l>
+                        <l>As told me I deserv'd not to come <hi>there.</hi>
+                        </l>
+                        <pb n="80" facs="tcp:205476:53"/>
+                        <l>The Holiest Saints are so <hi>imperfect</hi> here,</l>
+                        <l>And <hi>sinful</hi> too, thereby desert may fear</l>
+                        <l>Instead of <hi>Bliss,</hi> to meet approach<g ref="char:EOLhyphen"/>ing doom;</l>
+                        <l>And Oh how <hi>short</hi> (far <hi>short</hi>) of them I come!</l>
+                        <l>How <hi>many Sins</hi> have spread their guilt on me!</l>
+                        <l>How <hi>few</hi> my <hi>Graces!</hi> and how <hi>weak</hi> they be!</l>
+                        <l>How <hi>cold</hi> my <hi>Duties!</hi> and how <hi>poorly</hi> done!</l>
+                        <l>How much of <hi>Sin</hi> polluteth ev'ry one!</l>
+                        <l>And can I think to <hi>such</hi> there will be giv'n,</l>
+                        <l>
+                           <hi>Such</hi> sinful Service, a Reward in Heav'n?</l>
+                        <l>
+                           <hi>Pardon</hi> a sinner, and <hi>reward</hi> him too!</l>
+                        <l>Yet Oh what cannot <hi>Love</hi> and <hi>Mer<g ref="char:EOLhyphen"/>cy</hi> do?</l>
+                        <pb n="81" facs="tcp:205476:53"/>
+                        <l>Oh what indeed! for as I cast mine eye</l>
+                        <l>Upon my Book again, I there did spie</l>
+                        <l>This undeserv'd, this gracious <hi>Elogie.</hi>
+                        </l>
+                        <l>
+                           <hi>Well done! thou good and faithful Servant, come</hi>
+                        </l>
+                        <l>
+                           <hi>Enter into thy Master's Joy, to whom</hi>
+                        </l>
+                        <l>
+                           <hi>Thy faithfulness in little has been such,</hi>
+                        </l>
+                        <l>
+                           <hi>That I will make thee Ruler over much.</hi>
+                        </l>
+                        <l>But Oh! the' indulgent Bounty that did shine</l>
+                        <l>Into my Soul thro' ev'ry gracious Line!</l>
+                        <l>Especially when I believ'd that He</l>
+                        <l>Will one day speak those blessed words to <hi>me.</hi>
+                        </l>
+                        <l>Ah Lord! said I, (and sighing out the rest,</l>
+                        <l>
+                           <hi>Love, Joy,</hi> and <hi>Shame,</hi> and <hi>Wonder</hi> fill'd my breast.)</l>
+                        <pb n="82" facs="tcp:205476:54"/>
+                        <l>Ah Lord! said I, can ought that's done by <hi>me</hi>
+                        </l>
+                        <l>E're be accepted and approv'd by <hi>Thee?</hi>
+                        </l>
+                        <l>'Tis clear, thy Bounty from thy <hi>Love</hi> begins,</l>
+                        <l>In passing by such <hi>multitudes of sins.</hi>
+                        </l>
+                        <l>Those Services which I my self do know</l>
+                        <l>Are weak and sinful, <hi>Thou'lt</hi> not call them so.</l>
+                        <l>When to my <hi>utmost</hi> I my work fulfil,</l>
+                        <l>I'm an <hi>Ʋnprofitable Servant</hi> still.</l>
+                        <l>And even <hi>that</hi> if it performed be</l>
+                        <l>Better than other, yet no thanks to me.</l>
+                        <l>'Tis not by <hi>me</hi> done, but that <hi>Grace</hi> of <hi>thine</hi>
+                        </l>
+                        <l>Which in me dwells; yet the <hi>Re<g ref="char:EOLhyphen"/>ward</hi> is <hi>mine.</hi>
+                        </l>
+                        <pb n="83" facs="tcp:205476:54"/>
+                        <l>Therefore be pleas'd my drousie Soul to raise,</l>
+                        <l>
+                           <hi>Mine</hi> be the Work, and <hi>Thine</hi> be all the Praise.</l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <head>The Invitation.</head>
+                     <lg n="1">
+                        <head>I.</head>
+                        <l>LORD, let thy Holy Spirit come,</l>
+                        <l>And <hi>lodge</hi> within my breast,</l>
+                        <l>I find there is a <hi>little</hi> room</l>
+                        <l>Would be by Thee possest.</l>
+                        <l>Come in, and turn but out of door</l>
+                        <l>The <hi>Sin</hi> that dwells there, and there will be <hi>more.</hi>
+                        </l>
+                     </lg>
+                     <lg n="2">
+                        <pb n="84" facs="tcp:205476:55"/>
+                        <head>II.</head>
+                        <l>But ah! my sin-polluted Breast Is surely far unfit</l>
+                        <l>For such a <hi>pure</hi> and <hi>holy</hi> Guest</l>
+                        <l>To come and lodge in it.</l>
+                        <l>Yet <hi>therefore</hi> come, that it may be</l>
+                        <l>
+                           <hi>Cleansed</hi> from Sin, and <hi>sanctified</hi> to Thee.</l>
+                     </lg>
+                     <lg n="3">
+                        <head>III.</head>
+                        <l>Like the <hi>Augaean</hi> Stable now</l>
+                        <l>Is my defiled heart,</l>
+                        <l>Oh let a <hi>Stream</hi> of <hi>Blood</hi> run through</l>
+                        <l>And cleanse't in ev'ry part.</l>
+                        <l>That Blood will make the sins that show</l>
+                        <l>As <hi>red</hi> as <hi>it,</hi> become as <hi>white</hi> as <hi>Snow.</hi>
+                        </l>
+                     </lg>
+                     <lg n="4">
+                        <pb n="85" facs="tcp:205476:55"/>
+                        <head>IV.</head>
+                        <l>My Breast's thy <hi>Temple,</hi> come and dwell,</l>
+                        <l>O Gracious God, therein;</l>
+                        <l>Thy <hi>Presence</hi> quickly <gap reason="illegible: blotted" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap>ll expel</l>
+                        <l>And <hi>drive out</hi> ev'ry sin.</l>
+                        <l>Do so; for it my Spirit grieves</l>
+                        <l>To see thy <hi>House</hi> thus made a <hi>Den of Thieves:</hi>
+                        </l>
+                     </lg>
+                     <lg n="5">
+                        <head>V.</head>
+                        <l>Come Lord, I'll open wide the door,</l>
+                        <l>That Thou may'st enter in;</l>
+                        <l>Which against thee was shut before</l>
+                        <l>By Vanity and Sin.</l>
+                        <l>And they, when Thou ap<g ref="char:EOLhyphen"/>proach'dst the Lock,</l>
+                        <l>Made such a <hi>noise</hi> I could not hear Thee <hi>knock.</hi>
+                        </l>
+                     </lg>
+                     <lg n="6">
+                        <pb n="86" facs="tcp:205476:56"/>
+                        <head>VI.</head>
+                        <l>Though Thou hast often come <hi>in vain,</hi>
+                        </l>
+                        <l>Yet do not now forbear,</l>
+                        <l>But com<gap reason="illegible: blotted" extent="1+ letters">
+                              <desc>•…</desc>
+                           </gap>t least <hi>this once</hi> again,</l>
+                        <l>When I thy Voice will <hi>bear.</hi>
+                        </l>
+                        <l>Cam'st Thou so oft <hi>unask'd</hi> be<g ref="char:EOLhyphen"/>fore,</l>
+                        <l>And now I <hi>woo</hi> Thee wilt Thou come no more?</l>
+                     </lg>
+                     <lg n="7">
+                        <head>VII.</head>
+                        <l>Yes, come, and be not so unkind,</l>
+                        <l>But come and <hi>Sup</hi> with me;</l>
+                        <l>Yet <hi>Entertainment</hi> Thou wilt find</l>
+                        <l>None but what <hi>comes with Thee.</hi>
+                        </l>
+                        <l>Thou must not only be the <hi>Guest,</hi>
+                        </l>
+                        <l>But to my Soul <hi>Thy Self</hi> supply the <hi>Feast.</hi>
+                        </l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <pb n="87" facs="tcp:205476:56"/>
+                     <head>The Welcome.</head>
+                     <lg n="1">
+                        <head>I.</head>
+                        <l>WElcome, Dear Lord Thou know'st thou art</l>
+                        <l>As welcome unto me,</l>
+                        <l>As to a Longing Virgin's heart</l>
+                        <l>Her coming Spouse can be;</l>
+                        <l>When like to be <hi>allur'd</hi> or <hi>forc'd</hi>
+                        </l>
+                        <l>From him from whom she'd dye e're be divorc'd.</l>
+                     </lg>
+                     <lg n="2">
+                        <head>II.</head>
+                        <l>Go, get ye hence! ye <hi>Sins</hi> that have</l>
+                        <l>So oft debarr'd my Love,</l>
+                        <l>Him I with open Arms receive,</l>
+                        <l>And now will <hi>constant</hi> prove.</l>
+                        <pb n="88" facs="tcp:205476:57"/>
+                        <l>Ye oft excluded him before,</l>
+                        <l>But (by his Grace) ye ne'r shall do it more.</l>
+                     </lg>
+                     <lg n="3">
+                        <head>III.</head>
+                        <l>Dear Lord! How <hi>quickly</hi> didst thou come</l>
+                        <l>When I lift up my voice;</l>
+                        <l>Welcome, thrice welcome, thou in whom</l>
+                        <l>My Soul shall still rejoyce.</l>
+                        <l>My crying makes it now appear</l>
+                        <l>
+                           <hi>Before</hi> I call'd, Thou (tho' unseen) wast <hi>near.</hi>
+                        </l>
+                     </lg>
+                     <lg n="4">
+                        <head>IV.</head>
+                        <l>Come, now be pleas'd to Sup with me,</l>
+                        <l>Sit down, dear Guest! and eat;</l>
+                        <l>Thou need'st not fear but <hi>welcome</hi> be</l>
+                        <l>To what's thine <hi>own:</hi> but yet</l>
+                        <pb n="89" facs="tcp:205476:57"/>
+                        <l>Improperly I call Thee <hi>Guest,</hi>
+                        </l>
+                        <l>Since <hi>I</hi> am so, and <hi>Thou</hi> my only <hi>Feast.</hi>
+                        </l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <head>The Glympse.</head>
+                     <lg>
+                        <l>HOW transient, Lord, thy Glorious <hi>Visits</hi> be</l>
+                        <l>To those on this side of Eternity!</l>
+                        <l>They are but <hi>Glymses,</hi> do not long remain,</l>
+                        <l>But while we say, <hi>What's this?</hi> are gone again.</l>
+                        <l>When <hi>Moses</hi> pray'd thy Glory thou would'st shew,</l>
+                        <l>Thou but thy <hi>Back-parts</hi> didst ex<g ref="char:EOLhyphen"/>pose to view.</l>
+                        <l>Thou mad'st him in the clift o'th' Rock to stand,</l>
+                        <l>And hid him with the hollow of thy hand:</l>
+                        <pb n="90" facs="tcp:205476:58"/>
+                        <l>Thou put a Skreen before his long<g ref="char:EOLhyphen"/>ing eye,</l>
+                        <l>Till thy approaching Glory <hi>passed by.</hi>
+                        </l>
+                        <l>He only saw thee <hi>going,</hi> saw thee <hi>fled,</hi>
+                        </l>
+                        <l>Soon as his Eyes were well unco<g ref="char:EOLhyphen"/>vered.</l>
+                        <l>So transiently thou dost to us ap<g ref="char:EOLhyphen"/>pear,</l>
+                        <l>Till thou art <hi>gone</hi> we know not thou wast <hi>here.</hi>
+                        </l>
+                        <l>Thy glorious Presence we not long retain,</l>
+                        <l>Thou only com'st <hi>to bid Farewel</hi> again.</l>
+                        <l>Yet these short Visits make us hope that we</l>
+                        <l>Shall in thy sight live to Eternity.</l>
+                        <l>This glorious <hi>Sun</hi> to its <hi>Meridian</hi> gets,</l>
+                        <l>
+                           <hi>Clouded</hi> to us, unseen till when it <hi>sets.</hi>
+                        </l>
+                        <pb n="91" facs="tcp:205476:58"/>
+                        <l>Yet, tho' its <hi>Light</hi> be quickly gone, we find</l>
+                        <l>Its <hi>Heat</hi> and <hi>Influence</hi> still remains behind.</l>
+                        <l>As when some glorious <hi>Vision</hi> of the Night</l>
+                        <l>Silently glides before the closed Sight</l>
+                        <l>Of one 'twixt sleep and waking, scarce his eyes</l>
+                        <l>Begin to <hi>open,</hi> when the Vision <hi>flies.</hi>
+                        </l>
+                        <l>So thou unseen dost to our Souls draw nigh,</l>
+                        <l>Which are <hi>asleep</hi> while thou art passing by;</l>
+                        <l>But when this glorious Light be<g ref="char:EOLhyphen"/>gins to shake</l>
+                        <l>Our <hi>Slumbers</hi> off, e're we are well <hi>awake,</hi>
+                        </l>
+                        <pb n="92" facs="tcp:205476:59"/>
+                        <l>The Vision's <hi>fled,</hi> and we with <hi>Ja<g ref="char:EOLhyphen"/>cob</hi> cry</l>
+                        <l>
+                           <hi>Sure, tho' we knew it not, the Lord was nigh.</hi>
+                        </l>
+                        <l>And then with speed, like him, a <hi>Pillar</hi> raise,</l>
+                        <l>And Offer up a Sacrifice of Praise.</l>
+                        <l>Yet, tho' these Glympses be but <hi>short,</hi> we know</l>
+                        <l>We must expect no fuller <hi>Views</hi> be<g ref="char:EOLhyphen"/>low.</l>
+                        <l>Could <hi>Moses,</hi> thy familiar <hi>Friend,</hi> not see</l>
+                        <l>Thy blessed <hi>Face,</hi> then how alas should we?</l>
+                        <l>While w'are in <hi>flesh,</hi> our frailty cannot bear</l>
+                        <l>A <hi>steady view</hi> of Heav'nly splen<g ref="char:EOLhyphen"/>dour near.</l>
+                        <l>Should'st thou display thy Glory, we should find,</l>
+                        <l>Like <hi>Paul,</hi> that <hi>Lustre</hi> would but strike us <hi>blind.</hi>
+                        </l>
+                        <pb n="93" facs="tcp:205476:59"/>
+                        <l>Come then but <hi>often,</hi> tho' thou soon depart'st,</l>
+                        <l>'Twill be sufficient to enflame our hearts;</l>
+                        <l>For we the truth o'th' Observation prove,</l>
+                        <l>That not <hi>fixt Views,</hi> but <hi>Glances</hi> kindle Love.</l>
+                        <l>Yet thou in <hi>Heaven fully</hi> wilt im<g ref="char:EOLhyphen"/>part</l>
+                        <l>Thy Self, and we shall see thee <hi>as thou art.</hi>
+                        </l>
+                        <l>In <hi>Heaven</hi> all thy Glory will be shown,</l>
+                        <l>And we shall know thee, even <hi>as we are known:</hi>
+                        </l>
+                        <l>But what this <hi>Knowledge,</hi> what this <hi>Sight</hi> should be,</l>
+                        <l>We can't know <hi>here,</hi> but fai<gap reason="illegible: blotted" extent="1 letter">
+                              <desc>•</desc>
+                           </gap> would go to <hi>see.</hi>
+                        </l>
+                     </lg>
+                  </div>
+                  <div type="poem">
+                     <pb n="94" facs="tcp:205476:60"/>
+                     <head>Praise.</head>
+                     <lg n="1">
+                        <head>I.</head>
+                        <l>THY daily gracious dealings, Lord,</l>
+                        <l>Do ev'n astonish me,</l>
+                        <l>Each hour fresh Wonders does af<g ref="char:EOLhyphen"/>ford</l>
+                        <l>Of thy Benignity.</l>
+                        <l>No sooner Troubles do arise,</l>
+                        <l>But thou dost them controul;</l>
+                        <l>And with Divine and Heav'nly Joys</l>
+                        <l>Sweetly refresh my Soul.</l>
+                     </lg>
+                     <lg n="2">
+                        <pb n="95" facs="tcp:205476:60"/>
+                        <head>II.</head>
+                        <l>I see it is not all my sin,</l>
+                        <l>Tho' ne'r so great it be,</l>
+                        <l>That can with-hold this Love of thine</l>
+                        <l>From poor unworthy me.</l>
+                        <l>O may my Life shew forth thy Praise,</l>
+                        <l>And thy Commands fulfil;</l>
+                        <l>And may thy Goodness all my days</l>
+                        <l>Wait and attend me still.</l>
+                     </lg>
+                  </div>
+                  <trailer>FINIS.</trailer>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>
